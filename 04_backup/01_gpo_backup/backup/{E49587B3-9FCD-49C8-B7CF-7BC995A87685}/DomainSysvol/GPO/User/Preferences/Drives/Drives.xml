@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Drives clsid="{8FDDCC1A-0C3C-43cd-A6B4-71A6DF20DA8C}"><Drive clsid="{935D1B74-9CB8-4e3c-9914-7DD559B7A417}" name="V:" status="V:" image="2" changed="2023-02-13 09:55:14" uid="{C3E660D4-9953-408A-8E90-561DC80ED470}"><Properties action="U" thisDrive="NOCHANGE" allDrives="NOCHANGE" userName="" path="\\vSRV03\Verkauf" label="Verkauf" persistent="1" useLetter="1" letter="V"/></Drive>
+	<Drive clsid="{935D1B74-9CB8-4e3c-9914-7DD559B7A417}" name="V:" status="V:" image="0" changed="2023-02-13 09:55:34" uid="{4E3A812A-1FCE-4AD9-81E5-32B7A7A1D39F}"><Properties action="C" thisDrive="NOCHANGE" allDrives="NOCHANGE" userName="" path="\\vSRV03\Verkauf" label="Verkauf" persistent="0" useLetter="1" letter="V"/></Drive>
+</Drives>

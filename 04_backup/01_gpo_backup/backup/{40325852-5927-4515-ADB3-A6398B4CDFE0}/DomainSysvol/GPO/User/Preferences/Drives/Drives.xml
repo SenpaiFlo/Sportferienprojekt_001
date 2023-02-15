@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Drives clsid="{8FDDCC1A-0C3C-43cd-A6B4-71A6DF20DA8C}"><Drive clsid="{935D1B74-9CB8-4e3c-9914-7DD559B7A417}" name="T:" status="T:" image="2" changed="2023-02-13 09:53:22" uid="{F43C32D9-8DB0-4CC8-BE82-7CC9D4F1D9B1}"><Properties action="U" thisDrive="NOCHANGE" allDrives="NOCHANGE" userName="" path="\\vSRV03\Technik" label="Technik" persistent="1" useLetter="1" letter="T"/></Drive>
+	<Drive clsid="{935D1B74-9CB8-4e3c-9914-7DD559B7A417}" name="T:" status="T:" image="0" changed="2023-02-13 09:56:11" uid="{CF626BEC-781B-459A-BBC0-15DA6534209B}"><Properties action="C" thisDrive="NOCHANGE" allDrives="NOCHANGE" userName="" path="\\vSRV03\Technik" label="Technik" persistent="0" useLetter="1" letter="T"/></Drive>
+</Drives>

@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright (c) Microsoft Corporation.  All rights reserved. --><GroupPolicyBackupScheme bkp:version="2.0" bkp:type="GroupPolicyBackupTemplate" xmlns:bkp="http://www.microsoft.com/GroupPolicy/GPOOperations" xmlns="http://www.microsoft.com/GroupPolicy/GPOOperations">
+    <GroupPolicyObject><SecurityGroups><Group bkp:Source="FromDACL"><Sid><![CDATA[S-1-5-21-3346114409-1481072307-2860009344-519]]></Sid><SamAccountName><![CDATA[Enterprise Admins]]></SamAccountName><Type><![CDATA[UniversalGroup]]></Type><NetBIOSDomainName><![CDATA[CURIGER]]></NetBIOSDomainName><DnsDomainName><![CDATA[curiger.local]]></DnsDomainName><UPN><![CDATA[Enterprise Admins@curiger.local]]></UPN></Group><Group bkp:Source="FromDACL"><Sid><![CDATA[S-1-5-21-3346114409-1481072307-2860009344-512]]></Sid><SamAccountName><![CDATA[Domain Admins]]></SamAccountName><Type><![CDATA[GlobalGroup]]></Type><NetBIOSDomainName><![CDATA[CURIGER]]></NetBIOSDomainName><DnsDomainName><![CDATA[curiger.local]]></DnsDomainName><UPN><![CDATA[Domain Admins@curiger.local]]></UPN></Group><Group bkp:Source="FromDACL"><Sid><![CDATA[S-1-5-21-3346114409-1481072307-2860009344-1107]]></Sid><SamAccountName><![CDATA[technik]]></SamAccountName><Type><![CDATA[GlobalGroup]]></Type><NetBIOSDomainName><![CDATA[CURIGER]]></NetBIOSDomainName><DnsDomainName><![CDATA[curiger.local]]></DnsDomainName><UPN><![CDATA[technik@curiger.local]]></UPN></Group><Group bkp:Source="FromDACL"><Sid><![CDATA[S-1-5-21-3346114409-1481072307-2860009344-1108]]></Sid><SamAccountName><![CDATA[verkauf]]></SamAccountName><Type><![CDATA[GlobalGroup]]></Type><NetBIOSDomainName><![CDATA[CURIGER]]></NetBIOSDomainName><DnsDomainName><![CDATA[curiger.local]]></DnsDomainName><UPN><![CDATA[verkauf@curiger.local]]></UPN></Group><Group bkp:Source="FromDACL"><Sid><![CDATA[S-1-5-21-3346114409-1481072307-2860009344-1115]]></Sid><SamAccountName><![CDATA[Humanressources]]></SamAccountName><Type><![CDATA[GlobalGroup]]></Type><NetBIOSDomainName><![CDATA[CURIGER]]></NetBIOSDomainName><DnsDomainName><![CDATA[curiger.local]]></DnsDomainName><UPN><![CDATA[Humanressources@curiger.local]]></UPN></Group></SecurityGroups><FilePaths><Path><![CDATA[\\vsrv03\deployment]]></Path></FilePaths><GroupPolicyCoreSettings><ID><![CDATA[{22E8CA73-49DD-41D3-B2AF-75AC9359F74E}]]></ID><Domain><![CDATA[curiger.local]]></Domain><SecurityDescriptor>01 00 04 9c 00 00 00 00 00 00 00 00 00 00 00 00 14 00 00 00 04 00 00 02 0e 00 00 00 05 02 38 00 00 01 00 00 01 00 00 00 8f fd ac ed b3 ff d1 11 b4 1d 00 a0 c9 68 f9 39 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 53 04 00 00 05 02 38 00 00 01 00 00 01 00 00 00 8f fd ac ed b3 ff d1 11 b4 1d 00 a0 c9 68 f9 39 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 54 04 00 00 05 02 38 00 00 01 00 00 01 00 00 00 8f fd ac ed b3 ff d1 11 b4 1d 00 a0 c9 68 f9 39 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 5b 04 00 00 05 02 28 00 00 01 00 00 01 00 00 00 8f fd ac ed b3 ff d1 11 b4 1d 00 a0 c9 68 f9 39 01 01 00 00 00 00 00 05 0b 00 00 00 00 00 24 00 ff 00 0f 00 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 00 02 00 00 00 02 24 00 14 00 02 00 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 53 04 00 00 00 02 24 00 14 00 02 00 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 54 04 00 00 00 02 24 00 14 00 02 00 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 5b 04 00 00 00 02 24 00 ff 00 0f 00 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 00 02 00 00 00 02 24 00 ff 00 0f 00 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 07 02 00 00 00 02 14 00 94 00 02 00 01 01 00 00 00 00 00 05 09 00 00 00 00 02 14 00 94 00 02 00 01 01 00 00 00 00 00 05 0b 00 00 00 00 02 14 00 ff 00 0f 00 01 01 00 00 00 00 00 05 12 00 00 00 00 0a 14 00 ff 00 0f 00 01 01 00 00 00 00 00 03 00 00 00 00</SecurityDescriptor><DisplayName><![CDATA[AppDistribution]]></DisplayName><Options><![CDATA[0]]></Options><UserVersionNumber><![CDATA[393222]]></UserVersionNumber><MachineVersionNumber><![CDATA[1703962]]></MachineVersionNumber><MachineExtensionGuids><![CDATA[[{35378EAC-683F-11D2-A89A-00C04FBBCFA2}{D02B1F72-3407-48AE-BA88-E8213C6761F1}][{C6DC5466-785A-11D2-84D0-00C04FB169F7}{942A8E4F-A261-11D1-A760-00C04FB9603F}]]]></MachineExtensionGuids><UserExtensionGuids><![CDATA[[{C6DC5466-785A-11D2-84D0-00C04FB169F7}{BACF5C8A-A3C7-11D1-A760-00C04FB9603F}]]]></UserExtensionGuids><WMIFilter/></GroupPolicyCoreSettings> 
+        <GroupPolicyExtension bkp:ID="{35378EAC-683F-11D2-A89A-00C04FBBCFA2}" bkp:DescName="Registry">
+            <FSObjectFile bkp:Path="%GPO_MACH_FSPATH%\registry.pol" bkp:SourceExpandedPath="\\vSRV01.curiger.local\sysvol\curiger.local\Policies\{22E8CA73-49DD-41D3-B2AF-75AC9359F74E}\Machine\registry.pol" bkp:Location="DomainSysvol\GPO\Machine\registry.pol"/>
+            
+            <FSObjectFile bkp:Path="%GPO_FSPATH%\Adm\*.*" bkp:SourceExpandedPath="\\vSRV01.curiger.local\sysvol\curiger.local\Policies\{22E8CA73-49DD-41D3-B2AF-75AC9359F74E}\Adm\*.*"/>
+        </GroupPolicyExtension>
+        
+        
+        
+        
+        
+        
+        
+        
+        <GroupPolicyExtension bkp:ID="{c6dc5466-785a-11d2-84d0-00c04fb169f7}" bkp:DescName="Software Installation">
+            <DSObject bkp:Path="cn=Class Store,%GPO_USER_DSPATH%" bkp:ObjectClass="classStore" bkp:SourceExpandedPath="cn=Class Store,cn=User,cn={22E8CA73-49DD-41D3-B2AF-75AC9359F74E},CN=Policies,CN=System,DC=curiger,DC=local">
+                <DSObject bkp:Path="cn=Packages,cn=Class Store,%GPO_USER_DSPATH%" bkp:ObjectClass="classStore" bkp:SourceExpandedPath="cn=Packages,cn=Class Store,cn=User,cn={22E8CA73-49DD-41D3-B2AF-75AC9359F74E},CN=Policies,CN=System,DC=curiger,DC=local">
+                    <DSObject bkp:Path="*,cn=Packages,cn=Class Store,%GPO_USER_DSPATH%" bkp:ObjectClass="packageRegistration" bkp:SourceExpandedPath="*,cn=Packages,cn=Class Store,cn=User,cn={22E8CA73-49DD-41D3-B2AF-75AC9359F74E},CN=Policies,CN=System,DC=curiger,DC=local" bkp:ReEvaluateFunction="SIProcessAllPackageObjects"><DSObject bkp:ObjectClass="packageRegistration" bkp:Path="CN=a99e2658-8532-45ca-a7d6-71a35ca75ee7,CN=Packages,CN=Class Store,%GPO_USER_DSPATH%" bkp:SourceExpandedPath="CN=a99e2658-8532-45ca-a7d6-71a35ca75ee7,CN=Packages,CN=Class Store,cn=User,cn={22E8CA73-49DD-41D3-B2AF-75AC9359F74E},CN=Policies,CN=System,DC=curiger,DC=local" bkp:ReEvaluateFunction="SIProcessPackageObject"><FSObjectFile bkp:Path="%GPO_USER_FSPATH%\Applications\{D629BC3B-C5B1-4789-90B7-6CE7344CC2C7}.aas" bkp:SourceExpandedPath="\\vSRV01.curiger.local\sysvol\curiger.local\Policies\{22E8CA73-49DD-41D3-B2AF-75AC9359F74E}\User\Applications\{D629BC3B-C5B1-4789-90B7-6CE7344CC2C7}.aas" bkp:Location="DomainSysvol\GPO\User\Applications\{D629BC3B-C5B1-4789-90B7-6CE7344CC2C7}.aas"/>
+                        <SecurityDescriptor>01 00 04 8c 00 00 00 00 00 00 00 00 00 00 00 00 14 00 00 00 04 00 28 02 10 00 00 00 00 00 24 00 ff 01 0f 00 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 00 02 00 00 00 00 14 00 94 00 02 00 01 01 00 00 00 00 00 05 0b 00 00 00 00 00 14 00 ff 01 0f 00 01 01 00 00 00 00 00 05 12 00 00 00 05 12 38 00 00 01 00 00 01 00 00 00 8f fd ac ed b3 ff d1 11 b4 1d 00 a0 c9 68 f9 39 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 53 04 00 00 05 12 38 00 00 01 00 00 01 00 00 00 8f fd ac ed b3 ff d1 11 b4 1d 00 a0 c9 68 f9 39 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 54 04 00 00 05 12 38 00 00 01 00 00 01 00 00 00 8f fd ac ed b3 ff d1 11 b4 1d 00 a0 c9 68 f9 39 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 5b 04 00 00 05 12 28 00 00 01 00 00 01 00 00 00 8f fd ac ed b3 ff d1 11 b4 1d 00 a0 c9 68 f9 39 01 01 00 00 00 00 00 05 0b 00 00 00 00 12 24 00 14 00 02 00 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 53 04 00 00 00 12 24 00 14 00 02 00 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 54 04 00 00 00 12 24 00 14 00 02 00 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 5b 04 00 00 00 12 24 00 ff 00 0f 00 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 00 02 00 00 00 12 24 00 ff 00 0f 00 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 07 02 00 00 00 12 14 00 94 00 02 00 01 01 00 00 00 00 00 05 09 00 00 00 00 12 14 00 94 00 02 00 01 01 00 00 00 00 00 05 0b 00 00 00 00 12 14 00 ff 00 0f 00 01 01 00 00 00 00 00 05 12 00 00 00 00 1a 14 00 ff 00 0f 00 01 01 00 00 00 00 00 03 00 00 00 00</SecurityDescriptor>
+                        <DSAttributeBinary bkp:DSAttrName="objectGUID"><DSValue><![CDATA[0e 83 0d 7e 2c c3 22 4b b8 6d b0 17 65 d1 f8 cb]]></DSValue></DSAttributeBinary>
+                        <DSAttributeMultiString bkp:DSAttrName="cOMClassID"><DSValue><![CDATA[00000000-0000-0000-0000-000000000000:0]]></DSValue></DSAttributeMultiString>
+                        <DSAttributeMultiString bkp:DSAttrName="cOMProgID"/>
+                        <DSAttributeMultiString bkp:DSAttrName="fileExtPriority"/>
+                        <DSAttributeMultiDWORD bkp:DSAttrName="localeID"><DSValue><![CDATA[1033]]></DSValue></DSAttributeMultiDWORD>
+                        <DSAttributeMultiDWORD bkp:DSAttrName="machineArchitecture"><DSValue><![CDATA[150996226]]></DSValue></DSAttributeMultiDWORD>
+                        <DSAttributeDWORD bkp:DSAttrName="versionNumberHi"><DSValue><![CDATA[69]]></DSValue></DSAttributeDWORD>
+                        <DSAttributeDWORD bkp:DSAttrName="versionNumberLo"><DSValue><![CDATA[90]]></DSValue></DSAttributeDWORD>
+                        <DSAttributeDWORD bkp:DSAttrName="revision"><DSValue><![CDATA[0]]></DSValue></DSAttributeDWORD>
+                        <DSAttributeDWORD bkp:DSAttrName="packageType"><DSValue><![CDATA[5]]></DSValue></DSAttributeDWORD>
+                        <DSAttributeDWORD bkp:DSAttrName="packageFlags"><DSValue><![CDATA[2684354832]]></DSValue></DSAttributeDWORD>
+                        <DSAttributeString bkp:DSAttrName="packageName"><DSValue><![CDATA[Google Chrome]]></DSValue></DSAttributeString>
+                        <DSAttributeString bkp:DSAttrName="msiScriptPath"><DSValue><![CDATA[\\curiger.local\SysVol\curiger.local\Policies\{22E8CA73-49DD-41D3-B2AF-75AC9359F74E}\User\Applications\{D629BC3B-C5B1-4789-90B7-6CE7344CC2C7}.aas]]></DSValue></DSAttributeString>
+                        <DSAttributeString bkp:DSAttrName="msiScriptName"><DSValue><![CDATA[R]]></DSValue></DSAttributeString>
+                        <DSAttributeDWORD bkp:DSAttrName="msiScriptSize"/>
+                        <DSAttributeMultiString bkp:DSAttrName="url"/>
+                        <DSAttributeString bkp:DSAttrName="setupCommand"/>
+                        <DSAttributeString bkp:DSAttrName="lastUpdateSequence"><DSValue><![CDATA[20230213124417]]></DSValue></DSAttributeString>
+                        <DSAttributeMultiString bkp:DSAttrName="msiFileList"><DSValue><![CDATA[0:\\vSRV03\applications\googlechromestandaloneenterprise64.msi]]></DSValue></DSAttributeMultiString>
+                        <DSAttributeMultiString bkp:DSAttrName="categories"/>
+                        <DSAttributeMultiString bkp:DSAttrName="canUpgradeScript"/>
+                        <DSAttributeDWORD bkp:DSAttrName="installUiLevel"><DSValue><![CDATA[5]]></DSValue></DSAttributeDWORD>
+                        <DSAttributeBinary bkp:DSAttrName="msiScript"/>
+                        <DSAttributeString bkp:DSAttrName="displayName"><DSValue><![CDATA[Google Chrome]]></DSValue></DSAttributeString>
+                        <DSAttributeBinary bkp:DSAttrName="productCode"><DSValue><![CDATA[55 c4 e9 97 7c ad 40 39 bf 1c 5c 72 b8 52 4b aa]]></DSValue></DSAttributeBinary>
+                        <DSAttributeBinary bkp:DSAttrName="upgradeProductCode"><DSValue><![CDATA[69 df df c1 45 59 f2 32 a3 5e ee 94 c9 9c 7c f4]]></DSValue></DSAttributeBinary>
+                        <DSAttributeString bkp:DSAttrName="Vendor"/>
+                    </DSObject><DSObject bkp:ObjectClass="packageRegistration" bkp:Path="CN=72695854-c0bf-43f3-959e-d866eef8d6ab,CN=Packages,CN=Class Store,%GPO_USER_DSPATH%" bkp:SourceExpandedPath="CN=72695854-c0bf-43f3-959e-d866eef8d6ab,CN=Packages,CN=Class Store,cn=User,cn={22E8CA73-49DD-41D3-B2AF-75AC9359F74E},CN=Policies,CN=System,DC=curiger,DC=local" bkp:ReEvaluateFunction="SIProcessPackageObject"><FSObjectFile bkp:Path="%GPO_USER_FSPATH%\Applications\{F01C3A37-5DCA-4029-A3C6-C520D229306C}.aas" bkp:SourceExpandedPath="\\vSRV01.curiger.local\sysvol\curiger.local\Policies\{22E8CA73-49DD-41D3-B2AF-75AC9359F74E}\User\Applications\{F01C3A37-5DCA-4029-A3C6-C520D229306C}.aas" bkp:Location="DomainSysvol\GPO\User\Applications\{F01C3A37-5DCA-4029-A3C6-C520D229306C}.aas"/>
+                        <SecurityDescriptor>01 00 04 8c 00 00 00 00 00 00 00 00 00 00 00 00 14 00 00 00 04 00 28 02 10 00 00 00 00 00 24 00 ff 01 0f 00 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 00 02 00 00 00 00 14 00 94 00 02 00 01 01 00 00 00 00 00 05 0b 00 00 00 00 00 14 00 ff 01 0f 00 01 01 00 00 00 00 00 05 12 00 00 00 05 12 38 00 00 01 00 00 01 00 00 00 8f fd ac ed b3 ff d1 11 b4 1d 00 a0 c9 68 f9 39 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 53 04 00 00 05 12 38 00 00 01 00 00 01 00 00 00 8f fd ac ed b3 ff d1 11 b4 1d 00 a0 c9 68 f9 39 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 54 04 00 00 05 12 38 00 00 01 00 00 01 00 00 00 8f fd ac ed b3 ff d1 11 b4 1d 00 a0 c9 68 f9 39 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 5b 04 00 00 05 12 28 00 00 01 00 00 01 00 00 00 8f fd ac ed b3 ff d1 11 b4 1d 00 a0 c9 68 f9 39 01 01 00 00 00 00 00 05 0b 00 00 00 00 12 24 00 14 00 02 00 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 53 04 00 00 00 12 24 00 14 00 02 00 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 54 04 00 00 00 12 24 00 14 00 02 00 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 5b 04 00 00 00 12 24 00 ff 00 0f 00 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 00 02 00 00 00 12 24 00 ff 00 0f 00 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 07 02 00 00 00 12 14 00 94 00 02 00 01 01 00 00 00 00 00 05 09 00 00 00 00 12 14 00 94 00 02 00 01 01 00 00 00 00 00 05 0b 00 00 00 00 12 14 00 ff 00 0f 00 01 01 00 00 00 00 00 05 12 00 00 00 00 1a 14 00 ff 00 0f 00 01 01 00 00 00 00 00 03 00 00 00 00</SecurityDescriptor>
+                        <DSAttributeBinary bkp:DSAttrName="objectGUID"><DSValue><![CDATA[f7 1f 2b 79 d8 5d a7 47 a9 00 ae 9f 96 e5 a4 b0]]></DSValue></DSAttributeBinary>
+                        <DSAttributeMultiString bkp:DSAttrName="cOMClassID"><DSValue><![CDATA[00000000-0000-0000-0000-000000000000:0]]></DSValue></DSAttributeMultiString>
+                        <DSAttributeMultiString bkp:DSAttrName="cOMProgID"/>
+                        <DSAttributeMultiString bkp:DSAttrName="fileExtPriority"/>
+                        <DSAttributeMultiDWORD bkp:DSAttrName="localeID"><DSValue><![CDATA[1033]]></DSValue></DSAttributeMultiDWORD>
+                        <DSAttributeMultiDWORD bkp:DSAttrName="machineArchitecture"><DSValue><![CDATA[1282]]></DSValue></DSAttributeMultiDWORD>
+                        <DSAttributeDWORD bkp:DSAttrName="versionNumberHi"><DSValue><![CDATA[3]]></DSValue></DSAttributeDWORD>
+                        <DSAttributeDWORD bkp:DSAttrName="versionNumberLo"><DSValue><![CDATA[16]]></DSValue></DSAttributeDWORD>
+                        <DSAttributeDWORD bkp:DSAttrName="revision"><DSValue><![CDATA[0]]></DSValue></DSAttributeDWORD>
+                        <DSAttributeDWORD bkp:DSAttrName="packageType"><DSValue><![CDATA[5]]></DSValue></DSAttributeDWORD>
+                        <DSAttributeDWORD bkp:DSAttrName="packageFlags"><DSValue><![CDATA[2684354832]]></DSValue></DSAttributeDWORD>
+                        <DSAttributeString bkp:DSAttrName="packageName"><DSValue><![CDATA[FileZilla MSI Installer]]></DSValue></DSAttributeString>
+                        <DSAttributeString bkp:DSAttrName="msiScriptPath"><DSValue><![CDATA[\\curiger.local\SysVol\curiger.local\Policies\{22E8CA73-49DD-41D3-B2AF-75AC9359F74E}\User\Applications\{F01C3A37-5DCA-4029-A3C6-C520D229306C}.aas]]></DSValue></DSAttributeString>
+                        <DSAttributeString bkp:DSAttrName="msiScriptName"><DSValue><![CDATA[R]]></DSValue></DSAttributeString>
+                        <DSAttributeDWORD bkp:DSAttrName="msiScriptSize"/>
+                        <DSAttributeMultiString bkp:DSAttrName="url"/>
+                        <DSAttributeString bkp:DSAttrName="setupCommand"/>
+                        <DSAttributeString bkp:DSAttrName="lastUpdateSequence"><DSValue><![CDATA[20230213124413]]></DSValue></DSAttributeString>
+                        <DSAttributeMultiString bkp:DSAttrName="msiFileList"><DSValue><![CDATA[0:\\vSRV03\applications\FileZilla MSI Installer.msi]]></DSValue></DSAttributeMultiString>
+                        <DSAttributeMultiString bkp:DSAttrName="categories"/>
+                        <DSAttributeMultiString bkp:DSAttrName="canUpgradeScript"/>
+                        <DSAttributeDWORD bkp:DSAttrName="installUiLevel"><DSValue><![CDATA[5]]></DSValue></DSAttributeDWORD>
+                        <DSAttributeBinary bkp:DSAttrName="msiScript"/>
+                        <DSAttributeString bkp:DSAttrName="displayName"><DSValue><![CDATA[FileZilla MSI Installer]]></DSValue></DSAttributeString>
+                        <DSAttributeBinary bkp:DSAttrName="productCode"><DSValue><![CDATA[09 bd 43 77 81 41 4f 48 82 fb f6 f1 b0 07 47 d9]]></DSValue></DSAttributeBinary>
+                        <DSAttributeBinary bkp:DSAttrName="upgradeProductCode"><DSValue><![CDATA[ef 11 81 f4 04 f0 de 4a 80 fd 4b 23 70 29 fe 60]]></DSValue></DSAttributeBinary>
+                        <DSAttributeString bkp:DSAttrName="Vendor"/>
+                    </DSObject>
+                        <SecurityDescriptor/>
+                        <DSAttributeBinary bkp:DSAttrName="objectGUID"/>
+                        <DSAttributeMultiString bkp:DSAttrName="cOMClassID"/>
+                        <DSAttributeMultiString bkp:DSAttrName="cOMProgID"/>
+                        <DSAttributeMultiString bkp:DSAttrName="fileExtPriority"/>
+                        <DSAttributeMultiDWORD bkp:DSAttrName="localeID"/>
+                        <DSAttributeMultiDWORD bkp:DSAttrName="machineArchitecture"/>
+                        <DSAttributeDWORD bkp:DSAttrName="versionNumberHi"/>
+                        <DSAttributeDWORD bkp:DSAttrName="versionNumberLo"/>
+                        <DSAttributeDWORD bkp:DSAttrName="revision"/>
+                        <DSAttributeDWORD bkp:DSAttrName="packageType"/>
+                        <DSAttributeDWORD bkp:DSAttrName="packageFlags"/>
+                        <DSAttributeString bkp:DSAttrName="packageName"/>
+                        <DSAttributeString bkp:DSAttrName="msiScriptPath"/>
+                        <DSAttributeString bkp:DSAttrName="msiScriptName"/>
+                        <DSAttributeDWORD bkp:DSAttrName="msiScriptSize"/>
+                        <DSAttributeMultiString bkp:DSAttrName="url"/>
+                        <DSAttributeString bkp:DSAttrName="setupCommand"/>
+                        <DSAttributeString bkp:DSAttrName="lastUpdateSequence"/>
+                        <DSAttributeMultiString bkp:DSAttrName="msiFileList"/>
+                        <DSAttributeMultiString bkp:DSAttrName="categories"/>
+                        <DSAttributeMultiString bkp:DSAttrName="canUpgradeScript"/>
+                        <DSAttributeDWORD bkp:DSAttrName="installUiLevel"/>
+                        <DSAttributeBinary bkp:DSAttrName="msiScript"/>
+                        <DSAttributeString bkp:DSAttrName="displayName"/>
+                        <DSAttributeBinary bkp:DSAttrName="productCode"/>
+                        <DSAttributeBinary bkp:DSAttrName="upgradeProductCode"/>
+                        <DSAttributeString bkp:DSAttrName="Vendor"/>
+                    </DSObject>
+                </DSObject>
+                <DSAttributeDWORD bkp:DSAttrName="appSchemaVersion"><DSValue><![CDATA[1740]]></DSValue></DSAttributeDWORD>
+                <DSAttributeString bkp:DSAttrName="extensionName"><DSValue><![CDATA[AppDistribution]]></DSValue></DSAttributeString>
+                <DSAttributeString bkp:DSAttrName="description"><DSValue><![CDATA[Application Store]]></DSValue></DSAttributeString>
+                <DSAttributeExpandedString bkp:DSAttrName="displayName">
+                    <DSValue>LDAP://%GPO_DSPATH%</DSValue>
+                </DSAttributeExpandedString>
+            </DSObject>
+        <DSObject bkp:Path="cn=Class Store,%GPO_MACH_DSPATH%" bkp:ObjectClass="classStore" bkp:SourceExpandedPath="cn=Class Store,cn=Machine,cn={22E8CA73-49DD-41D3-B2AF-75AC9359F74E},CN=Policies,CN=System,DC=curiger,DC=local">
+                <DSObject bkp:Path="cn=Packages,cn=Class Store,%GPO_MACH_DSPATH%" bkp:ObjectClass="classStore" bkp:SourceExpandedPath="cn=Packages,cn=Class Store,cn=Machine,cn={22E8CA73-49DD-41D3-B2AF-75AC9359F74E},CN=Policies,CN=System,DC=curiger,DC=local">
+                    <DSObject bkp:Path="*,cn=Packages,cn=Class Store,%GPO_MACH_DSPATH%" bkp:ObjectClass="packageRegistration" bkp:SourceExpandedPath="*,cn=Packages,cn=Class Store,cn=Machine,cn={22E8CA73-49DD-41D3-B2AF-75AC9359F74E},CN=Policies,CN=System,DC=curiger,DC=local" bkp:ReEvaluateFunction="SIProcessAllPackageObjects"><DSObject bkp:ObjectClass="packageRegistration" bkp:Path="CN=cf3d15c7-9a0b-4fc1-956a-3c43c38290bf,CN=Packages,CN=Class Store,%GPO_MACH_DSPATH%" bkp:SourceExpandedPath="CN=cf3d15c7-9a0b-4fc1-956a-3c43c38290bf,CN=Packages,CN=Class Store,cn=Machine,cn={22E8CA73-49DD-41D3-B2AF-75AC9359F74E},CN=Policies,CN=System,DC=curiger,DC=local" bkp:ReEvaluateFunction="SIProcessPackageObject"><FSObjectFile bkp:Path="%GPO_MACH_FSPATH%\Applications\{42FE442E-F8D6-44C8-B7D1-0F5CE50653EE}.aas" bkp:SourceExpandedPath="\\vSRV01.curiger.local\sysvol\curiger.local\Policies\{22E8CA73-49DD-41D3-B2AF-75AC9359F74E}\Machine\Applications\{42FE442E-F8D6-44C8-B7D1-0F5CE50653EE}.aas" bkp:Location="DomainSysvol\GPO\Machine\Applications\{42FE442E-F8D6-44C8-B7D1-0F5CE50653EE}.aas"/>
+                        <SecurityDescriptor>01 00 04 8c 00 00 00 00 00 00 00 00 00 00 00 00 14 00 00 00 04 00 28 02 10 00 00 00 00 00 24 00 ff 01 0f 00 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 00 02 00 00 00 00 14 00 94 00 02 00 01 01 00 00 00 00 00 05 0b 00 00 00 00 00 14 00 ff 01 0f 00 01 01 00 00 00 00 00 05 12 00 00 00 05 12 38 00 00 01 00 00 01 00 00 00 8f fd ac ed b3 ff d1 11 b4 1d 00 a0 c9 68 f9 39 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 53 04 00 00 05 12 38 00 00 01 00 00 01 00 00 00 8f fd ac ed b3 ff d1 11 b4 1d 00 a0 c9 68 f9 39 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 54 04 00 00 05 12 38 00 00 01 00 00 01 00 00 00 8f fd ac ed b3 ff d1 11 b4 1d 00 a0 c9 68 f9 39 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 5b 04 00 00 05 12 28 00 00 01 00 00 01 00 00 00 8f fd ac ed b3 ff d1 11 b4 1d 00 a0 c9 68 f9 39 01 01 00 00 00 00 00 05 0b 00 00 00 00 12 24 00 14 00 02 00 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 53 04 00 00 00 12 24 00 14 00 02 00 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 54 04 00 00 00 12 24 00 14 00 02 00 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 5b 04 00 00 00 12 24 00 ff 00 0f 00 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 00 02 00 00 00 12 24 00 ff 00 0f 00 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 07 02 00 00 00 12 14 00 94 00 02 00 01 01 00 00 00 00 00 05 09 00 00 00 00 12 14 00 94 00 02 00 01 01 00 00 00 00 00 05 0b 00 00 00 00 12 14 00 ff 00 0f 00 01 01 00 00 00 00 00 05 12 00 00 00 00 1a 14 00 ff 00 0f 00 01 01 00 00 00 00 00 03 00 00 00 00</SecurityDescriptor>
+                        <DSAttributeBinary bkp:DSAttrName="objectGUID"><DSValue><![CDATA[af 0a 3f 32 3a aa 0f 48 b1 57 72 10 b0 e2 42 d8]]></DSValue></DSAttributeBinary>
+                        <DSAttributeMultiString bkp:DSAttrName="cOMClassID"><DSValue><![CDATA[00000000-0000-0000-0000-000000000000:0]]></DSValue></DSAttributeMultiString>
+                        <DSAttributeMultiString bkp:DSAttrName="cOMProgID"/>
+                        <DSAttributeMultiString bkp:DSAttrName="fileExtPriority"/>
+                        <DSAttributeMultiDWORD bkp:DSAttrName="localeID"><DSValue><![CDATA[1033]]></DSValue></DSAttributeMultiDWORD>
+                        <DSAttributeMultiDWORD bkp:DSAttrName="machineArchitecture"><DSValue><![CDATA[150996226]]></DSValue></DSAttributeMultiDWORD>
+                        <DSAttributeDWORD bkp:DSAttrName="versionNumberHi"><DSValue><![CDATA[69]]></DSValue></DSAttributeDWORD>
+                        <DSAttributeDWORD bkp:DSAttrName="versionNumberLo"><DSValue><![CDATA[90]]></DSValue></DSAttributeDWORD>
+                        <DSAttributeDWORD bkp:DSAttrName="revision"><DSValue><![CDATA[0]]></DSValue></DSAttributeDWORD>
+                        <DSAttributeDWORD bkp:DSAttrName="packageType"><DSValue><![CDATA[5]]></DSValue></DSAttributeDWORD>
+                        <DSAttributeDWORD bkp:DSAttrName="packageFlags"><DSValue><![CDATA[2684354832]]></DSValue></DSAttributeDWORD>
+                        <DSAttributeString bkp:DSAttrName="packageName"><DSValue><![CDATA[Google Chrome]]></DSValue></DSAttributeString>
+                        <DSAttributeString bkp:DSAttrName="msiScriptPath"><DSValue><![CDATA[\\curiger.local\SysVol\curiger.local\Policies\{22E8CA73-49DD-41D3-B2AF-75AC9359F74E}\Machine\Applications\{42FE442E-F8D6-44C8-B7D1-0F5CE50653EE}.aas]]></DSValue></DSAttributeString>
+                        <DSAttributeString bkp:DSAttrName="msiScriptName"><DSValue><![CDATA[R]]></DSValue></DSAttributeString>
+                        <DSAttributeDWORD bkp:DSAttrName="msiScriptSize"/>
+                        <DSAttributeMultiString bkp:DSAttrName="url"/>
+                        <DSAttributeString bkp:DSAttrName="setupCommand"/>
+                        <DSAttributeString bkp:DSAttrName="lastUpdateSequence"><DSValue><![CDATA[20230213130612]]></DSValue></DSAttributeString>
+                        <DSAttributeMultiString bkp:DSAttrName="msiFileList"><DSValue><![CDATA[0:\\vSRV03\applications\googlechromestandaloneenterprise64.msi]]></DSValue></DSAttributeMultiString>
+                        <DSAttributeMultiString bkp:DSAttrName="categories"/>
+                        <DSAttributeMultiString bkp:DSAttrName="canUpgradeScript"/>
+                        <DSAttributeDWORD bkp:DSAttrName="installUiLevel"><DSValue><![CDATA[5]]></DSValue></DSAttributeDWORD>
+                        <DSAttributeBinary bkp:DSAttrName="msiScript"/>
+                        <DSAttributeString bkp:DSAttrName="displayName"><DSValue><![CDATA[Google Chrome]]></DSValue></DSAttributeString>
+                        <DSAttributeBinary bkp:DSAttrName="productCode"><DSValue><![CDATA[55 c4 e9 97 7c ad 40 39 bf 1c 5c 72 b8 52 4b aa]]></DSValue></DSAttributeBinary>
+                        <DSAttributeBinary bkp:DSAttrName="upgradeProductCode"><DSValue><![CDATA[69 df df c1 45 59 f2 32 a3 5e ee 94 c9 9c 7c f4]]></DSValue></DSAttributeBinary>
+                        <DSAttributeString bkp:DSAttrName="Vendor"/>
+                    </DSObject><DSObject bkp:ObjectClass="packageRegistration" bkp:Path="CN=ae4024f1-05ff-4207-9dfb-94a160eb4849,CN=Packages,CN=Class Store,%GPO_MACH_DSPATH%" bkp:SourceExpandedPath="CN=ae4024f1-05ff-4207-9dfb-94a160eb4849,CN=Packages,CN=Class Store,cn=Machine,cn={22E8CA73-49DD-41D3-B2AF-75AC9359F74E},CN=Policies,CN=System,DC=curiger,DC=local" bkp:ReEvaluateFunction="SIProcessPackageObject"><FSObjectFile bkp:Path="%GPO_MACH_FSPATH%\Applications\{F4E5A0AB-79F6-4B15-8195-DE0ED5B03D80}.aas" bkp:SourceExpandedPath="\\vSRV01.curiger.local\sysvol\curiger.local\Policies\{22E8CA73-49DD-41D3-B2AF-75AC9359F74E}\Machine\Applications\{F4E5A0AB-79F6-4B15-8195-DE0ED5B03D80}.aas" bkp:Location="DomainSysvol\GPO\Machine\Applications\{F4E5A0AB-79F6-4B15-8195-DE0ED5B03D80}.aas"/>
+                        <SecurityDescriptor>01 00 04 8c 00 00 00 00 00 00 00 00 00 00 00 00 14 00 00 00 04 00 28 02 10 00 00 00 00 00 24 00 ff 01 0f 00 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 00 02 00 00 00 00 14 00 94 00 02 00 01 01 00 00 00 00 00 05 0b 00 00 00 00 00 14 00 ff 01 0f 00 01 01 00 00 00 00 00 05 12 00 00 00 05 12 38 00 00 01 00 00 01 00 00 00 8f fd ac ed b3 ff d1 11 b4 1d 00 a0 c9 68 f9 39 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 53 04 00 00 05 12 38 00 00 01 00 00 01 00 00 00 8f fd ac ed b3 ff d1 11 b4 1d 00 a0 c9 68 f9 39 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 54 04 00 00 05 12 38 00 00 01 00 00 01 00 00 00 8f fd ac ed b3 ff d1 11 b4 1d 00 a0 c9 68 f9 39 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 5b 04 00 00 05 12 28 00 00 01 00 00 01 00 00 00 8f fd ac ed b3 ff d1 11 b4 1d 00 a0 c9 68 f9 39 01 01 00 00 00 00 00 05 0b 00 00 00 00 12 24 00 14 00 02 00 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 53 04 00 00 00 12 24 00 14 00 02 00 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 54 04 00 00 00 12 24 00 14 00 02 00 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 5b 04 00 00 00 12 24 00 ff 00 0f 00 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 00 02 00 00 00 12 24 00 ff 00 0f 00 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 07 02 00 00 00 12 14 00 94 00 02 00 01 01 00 00 00 00 00 05 09 00 00 00 00 12 14 00 94 00 02 00 01 01 00 00 00 00 00 05 0b 00 00 00 00 12 14 00 ff 00 0f 00 01 01 00 00 00 00 00 05 12 00 00 00 00 1a 14 00 ff 00 0f 00 01 01 00 00 00 00 00 03 00 00 00 00</SecurityDescriptor>
+                        <DSAttributeBinary bkp:DSAttrName="objectGUID"><DSValue><![CDATA[b2 1a e8 98 3a e8 f0 40 94 43 15 07 f7 ad c9 8b]]></DSValue></DSAttributeBinary>
+                        <DSAttributeMultiString bkp:DSAttrName="cOMClassID"><DSValue><![CDATA[00000000-0000-0000-0000-000000000000:0]]></DSValue></DSAttributeMultiString>
+                        <DSAttributeMultiString bkp:DSAttrName="cOMProgID"/>
+                        <DSAttributeMultiString bkp:DSAttrName="fileExtPriority"/>
+                        <DSAttributeMultiDWORD bkp:DSAttrName="localeID"><DSValue><![CDATA[1033]]></DSValue></DSAttributeMultiDWORD>
+                        <DSAttributeMultiDWORD bkp:DSAttrName="machineArchitecture"><DSValue><![CDATA[150996226]]></DSValue></DSAttributeMultiDWORD>
+                        <DSAttributeDWORD bkp:DSAttrName="versionNumberHi"><DSValue><![CDATA[69]]></DSValue></DSAttributeDWORD>
+                        <DSAttributeDWORD bkp:DSAttrName="versionNumberLo"><DSValue><![CDATA[90]]></DSValue></DSAttributeDWORD>
+                        <DSAttributeDWORD bkp:DSAttrName="revision"><DSValue><![CDATA[0]]></DSValue></DSAttributeDWORD>
+                        <DSAttributeDWORD bkp:DSAttrName="packageType"><DSValue><![CDATA[5]]></DSValue></DSAttributeDWORD>
+                        <DSAttributeDWORD bkp:DSAttrName="packageFlags"><DSValue><![CDATA[2684354832]]></DSValue></DSAttributeDWORD>
+                        <DSAttributeString bkp:DSAttrName="packageName"><DSValue><![CDATA[Google Chrome]]></DSValue></DSAttributeString>
+                        <DSAttributeString bkp:DSAttrName="msiScriptPath"><DSValue><![CDATA[\\curiger.local\SysVol\curiger.local\Policies\{22E8CA73-49DD-41D3-B2AF-75AC9359F74E}\Machine\Applications\{F4E5A0AB-79F6-4B15-8195-DE0ED5B03D80}.aas]]></DSValue></DSAttributeString>
+                        <DSAttributeString bkp:DSAttrName="msiScriptName"><DSValue><![CDATA[R]]></DSValue></DSAttributeString>
+                        <DSAttributeDWORD bkp:DSAttrName="msiScriptSize"/>
+                        <DSAttributeMultiString bkp:DSAttrName="url"/>
+                        <DSAttributeString bkp:DSAttrName="setupCommand"/>
+                        <DSAttributeString bkp:DSAttrName="lastUpdateSequence"><DSValue><![CDATA[20230213124127]]></DSValue></DSAttributeString>
+                        <DSAttributeMultiString bkp:DSAttrName="msiFileList"><DSValue><![CDATA[0:\\vSRV03\applications\googlechromestandaloneenterprise64.msi]]></DSValue></DSAttributeMultiString>
+                        <DSAttributeMultiString bkp:DSAttrName="categories"/>
+                        <DSAttributeMultiString bkp:DSAttrName="canUpgradeScript"/>
+                        <DSAttributeDWORD bkp:DSAttrName="installUiLevel"><DSValue><![CDATA[5]]></DSValue></DSAttributeDWORD>
+                        <DSAttributeBinary bkp:DSAttrName="msiScript"/>
+                        <DSAttributeString bkp:DSAttrName="displayName"><DSValue><![CDATA[Google Chrome]]></DSValue></DSAttributeString>
+                        <DSAttributeBinary bkp:DSAttrName="productCode"><DSValue><![CDATA[55 c4 e9 97 7c ad 40 39 bf 1c 5c 72 b8 52 4b aa]]></DSValue></DSAttributeBinary>
+                        <DSAttributeBinary bkp:DSAttrName="upgradeProductCode"><DSValue><![CDATA[69 df df c1 45 59 f2 32 a3 5e ee 94 c9 9c 7c f4]]></DSValue></DSAttributeBinary>
+                        <DSAttributeString bkp:DSAttrName="Vendor"/>
+                    </DSObject><DSObject bkp:ObjectClass="packageRegistration" bkp:Path="CN=824f86e6-056b-4ac2-a112-b336bb54544e,CN=Packages,CN=Class Store,%GPO_MACH_DSPATH%" bkp:SourceExpandedPath="CN=824f86e6-056b-4ac2-a112-b336bb54544e,CN=Packages,CN=Class Store,cn=Machine,cn={22E8CA73-49DD-41D3-B2AF-75AC9359F74E},CN=Policies,CN=System,DC=curiger,DC=local" bkp:ReEvaluateFunction="SIProcessPackageObject"><FSObjectFile bkp:Path="%GPO_MACH_FSPATH%\Applications\{7E53F92B-6D60-4700-8096-41EFB4B1C31F}.aas" bkp:SourceExpandedPath="\\vSRV01.curiger.local\sysvol\curiger.local\Policies\{22E8CA73-49DD-41D3-B2AF-75AC9359F74E}\Machine\Applications\{7E53F92B-6D60-4700-8096-41EFB4B1C31F}.aas" bkp:Location="DomainSysvol\GPO\Machine\Applications\{7E53F92B-6D60-4700-8096-41EFB4B1C31F}.aas"/>
+                        <SecurityDescriptor>01 00 04 8c 00 00 00 00 00 00 00 00 00 00 00 00 14 00 00 00 04 00 28 02 10 00 00 00 00 00 24 00 ff 01 0f 00 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 00 02 00 00 00 00 14 00 94 00 02 00 01 01 00 00 00 00 00 05 0b 00 00 00 00 00 14 00 ff 01 0f 00 01 01 00 00 00 00 00 05 12 00 00 00 05 12 38 00 00 01 00 00 01 00 00 00 8f fd ac ed b3 ff d1 11 b4 1d 00 a0 c9 68 f9 39 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 53 04 00 00 05 12 38 00 00 01 00 00 01 00 00 00 8f fd ac ed b3 ff d1 11 b4 1d 00 a0 c9 68 f9 39 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 54 04 00 00 05 12 38 00 00 01 00 00 01 00 00 00 8f fd ac ed b3 ff d1 11 b4 1d 00 a0 c9 68 f9 39 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 5b 04 00 00 05 12 28 00 00 01 00 00 01 00 00 00 8f fd ac ed b3 ff d1 11 b4 1d 00 a0 c9 68 f9 39 01 01 00 00 00 00 00 05 0b 00 00 00 00 12 24 00 14 00 02 00 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 53 04 00 00 00 12 24 00 14 00 02 00 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 54 04 00 00 00 12 24 00 14 00 02 00 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 5b 04 00 00 00 12 24 00 ff 00 0f 00 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 00 02 00 00 00 12 24 00 ff 00 0f 00 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 07 02 00 00 00 12 14 00 94 00 02 00 01 01 00 00 00 00 00 05 09 00 00 00 00 12 14 00 94 00 02 00 01 01 00 00 00 00 00 05 0b 00 00 00 00 12 14 00 ff 00 0f 00 01 01 00 00 00 00 00 05 12 00 00 00 00 1a 14 00 ff 00 0f 00 01 01 00 00 00 00 00 03 00 00 00 00</SecurityDescriptor>
+                        <DSAttributeBinary bkp:DSAttrName="objectGUID"><DSValue><![CDATA[9f 15 04 a3 ec d9 80 4f a2 20 41 13 81 7b 1c f3]]></DSValue></DSAttributeBinary>
+                        <DSAttributeMultiString bkp:DSAttrName="cOMClassID"><DSValue><![CDATA[00000000-0000-0000-0000-000000000000:0]]></DSValue></DSAttributeMultiString>
+                        <DSAttributeMultiString bkp:DSAttrName="cOMProgID"/>
+                        <DSAttributeMultiString bkp:DSAttrName="fileExtPriority"/>
+                        <DSAttributeMultiDWORD bkp:DSAttrName="localeID"><DSValue><![CDATA[1033]]></DSValue></DSAttributeMultiDWORD>
+                        <DSAttributeMultiDWORD bkp:DSAttrName="machineArchitecture"><DSValue><![CDATA[150996226]]></DSValue></DSAttributeMultiDWORD>
+                        <DSAttributeDWORD bkp:DSAttrName="versionNumberHi"><DSValue><![CDATA[7]]></DSValue></DSAttributeDWORD>
+                        <DSAttributeDWORD bkp:DSAttrName="versionNumberLo"><DSValue><![CDATA[9]]></DSValue></DSAttributeDWORD>
+                        <DSAttributeDWORD bkp:DSAttrName="revision"><DSValue><![CDATA[0]]></DSValue></DSAttributeDWORD>
+                        <DSAttributeDWORD bkp:DSAttrName="packageType"><DSValue><![CDATA[5]]></DSValue></DSAttributeDWORD>
+                        <DSAttributeDWORD bkp:DSAttrName="packageFlags"><DSValue><![CDATA[2684354832]]></DSValue></DSAttributeDWORD>
+                        <DSAttributeString bkp:DSAttrName="packageName"><DSValue><![CDATA[Notepad++ (64-bit x64)]]></DSValue></DSAttributeString>
+                        <DSAttributeString bkp:DSAttrName="msiScriptPath"><DSValue><![CDATA[\\curiger.local\SysVol\curiger.local\Policies\{22E8CA73-49DD-41D3-B2AF-75AC9359F74E}\Machine\Applications\{7E53F92B-6D60-4700-8096-41EFB4B1C31F}.aas]]></DSValue></DSAttributeString>
+                        <DSAttributeString bkp:DSAttrName="msiScriptName"><DSValue><![CDATA[R]]></DSValue></DSAttributeString>
+                        <DSAttributeDWORD bkp:DSAttrName="msiScriptSize"/>
+                        <DSAttributeMultiString bkp:DSAttrName="url"/>
+                        <DSAttributeString bkp:DSAttrName="setupCommand"/>
+                        <DSAttributeString bkp:DSAttrName="lastUpdateSequence"><DSValue><![CDATA[20230213131451]]></DSValue></DSAttributeString>
+                        <DSAttributeMultiString bkp:DSAttrName="msiFileList"><DSValue><![CDATA[0:\\vsrv03\deployment\Notepad++7_9_1.msi]]></DSValue></DSAttributeMultiString>
+                        <DSAttributeMultiString bkp:DSAttrName="categories"/>
+                        <DSAttributeMultiString bkp:DSAttrName="canUpgradeScript"/>
+                        <DSAttributeDWORD bkp:DSAttrName="installUiLevel"><DSValue><![CDATA[5]]></DSValue></DSAttributeDWORD>
+                        <DSAttributeBinary bkp:DSAttrName="msiScript"/>
+                        <DSAttributeString bkp:DSAttrName="displayName"><DSValue><![CDATA[Notepad++ (64-bit x64)]]></DSValue></DSAttributeString>
+                        <DSAttributeBinary bkp:DSAttrName="productCode"><DSValue><![CDATA[86 94 ab 84 ef 65 2e 40 b0 61 b1 28 fb ce f9 1b]]></DSValue></DSAttributeBinary>
+                        <DSAttributeBinary bkp:DSAttrName="upgradeProductCode"><DSValue><![CDATA[71 a7 7e 66 96 e7 e6 4f 93 99 90 4c d4 aa b2 29]]></DSValue></DSAttributeBinary>
+                        <DSAttributeString bkp:DSAttrName="Vendor"/>
+                    </DSObject><DSObject bkp:ObjectClass="packageRegistration" bkp:Path="CN=78179039-3fe6-499f-bb54-4c4ed42e8305,CN=Packages,CN=Class Store,%GPO_MACH_DSPATH%" bkp:SourceExpandedPath="CN=78179039-3fe6-499f-bb54-4c4ed42e8305,CN=Packages,CN=Class Store,cn=Machine,cn={22E8CA73-49DD-41D3-B2AF-75AC9359F74E},CN=Policies,CN=System,DC=curiger,DC=local" bkp:ReEvaluateFunction="SIProcessPackageObject"><FSObjectFile bkp:Path="%GPO_MACH_FSPATH%\Applications\{7DCF2C14-D0C0-4240-B2DE-0FCAC27B64E2}.aas" bkp:SourceExpandedPath="\\vSRV01.curiger.local\sysvol\curiger.local\Policies\{22E8CA73-49DD-41D3-B2AF-75AC9359F74E}\Machine\Applications\{7DCF2C14-D0C0-4240-B2DE-0FCAC27B64E2}.aas" bkp:Location="DomainSysvol\GPO\Machine\Applications\{7DCF2C14-D0C0-4240-B2DE-0FCAC27B64E2}.aas"/>
+                        <SecurityDescriptor>01 00 04 8c 00 00 00 00 00 00 00 00 00 00 00 00 14 00 00 00 04 00 28 02 10 00 00 00 00 00 24 00 ff 01 0f 00 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 00 02 00 00 00 00 14 00 94 00 02 00 01 01 00 00 00 00 00 05 0b 00 00 00 00 00 14 00 ff 01 0f 00 01 01 00 00 00 00 00 05 12 00 00 00 05 12 38 00 00 01 00 00 01 00 00 00 8f fd ac ed b3 ff d1 11 b4 1d 00 a0 c9 68 f9 39 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 53 04 00 00 05 12 38 00 00 01 00 00 01 00 00 00 8f fd ac ed b3 ff d1 11 b4 1d 00 a0 c9 68 f9 39 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 54 04 00 00 05 12 38 00 00 01 00 00 01 00 00 00 8f fd ac ed b3 ff d1 11 b4 1d 00 a0 c9 68 f9 39 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 5b 04 00 00 05 12 28 00 00 01 00 00 01 00 00 00 8f fd ac ed b3 ff d1 11 b4 1d 00 a0 c9 68 f9 39 01 01 00 00 00 00 00 05 0b 00 00 00 00 12 24 00 14 00 02 00 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 53 04 00 00 00 12 24 00 14 00 02 00 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 54 04 00 00 00 12 24 00 14 00 02 00 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 5b 04 00 00 00 12 24 00 ff 00 0f 00 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 00 02 00 00 00 12 24 00 ff 00 0f 00 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 07 02 00 00 00 12 14 00 94 00 02 00 01 01 00 00 00 00 00 05 09 00 00 00 00 12 14 00 94 00 02 00 01 01 00 00 00 00 00 05 0b 00 00 00 00 12 14 00 ff 00 0f 00 01 01 00 00 00 00 00 05 12 00 00 00 00 1a 14 00 ff 00 0f 00 01 01 00 00 00 00 00 03 00 00 00 00</SecurityDescriptor>
+                        <DSAttributeBinary bkp:DSAttrName="objectGUID"><DSValue><![CDATA[e6 17 0d da a0 b4 99 4b a3 44 e8 12 fa c8 36 4b]]></DSValue></DSAttributeBinary>
+                        <DSAttributeMultiString bkp:DSAttrName="cOMClassID"><DSValue><![CDATA[00000000-0000-0000-0000-000000000000:0]]></DSValue></DSAttributeMultiString>
+                        <DSAttributeMultiString bkp:DSAttrName="cOMProgID"/>
+                        <DSAttributeMultiString bkp:DSAttrName="fileExtPriority"/>
+                        <DSAttributeMultiDWORD bkp:DSAttrName="localeID"><DSValue><![CDATA[1033]]></DSValue></DSAttributeMultiDWORD>
+                        <DSAttributeMultiDWORD bkp:DSAttrName="machineArchitecture"><DSValue><![CDATA[1282]]></DSValue></DSAttributeMultiDWORD>
+                        <DSAttributeDWORD bkp:DSAttrName="versionNumberHi"><DSValue><![CDATA[3]]></DSValue></DSAttributeDWORD>
+                        <DSAttributeDWORD bkp:DSAttrName="versionNumberLo"><DSValue><![CDATA[16]]></DSValue></DSAttributeDWORD>
+                        <DSAttributeDWORD bkp:DSAttrName="revision"><DSValue><![CDATA[0]]></DSValue></DSAttributeDWORD>
+                        <DSAttributeDWORD bkp:DSAttrName="packageType"><DSValue><![CDATA[5]]></DSValue></DSAttributeDWORD>
+                        <DSAttributeDWORD bkp:DSAttrName="packageFlags"><DSValue><![CDATA[2684354832]]></DSValue></DSAttributeDWORD>
+                        <DSAttributeString bkp:DSAttrName="packageName"><DSValue><![CDATA[FileZilla MSI Installer]]></DSValue></DSAttributeString>
+                        <DSAttributeString bkp:DSAttrName="msiScriptPath"><DSValue><![CDATA[\\curiger.local\SysVol\curiger.local\Policies\{22E8CA73-49DD-41D3-B2AF-75AC9359F74E}\Machine\Applications\{7DCF2C14-D0C0-4240-B2DE-0FCAC27B64E2}.aas]]></DSValue></DSAttributeString>
+                        <DSAttributeString bkp:DSAttrName="msiScriptName"><DSValue><![CDATA[R]]></DSValue></DSAttributeString>
+                        <DSAttributeDWORD bkp:DSAttrName="msiScriptSize"/>
+                        <DSAttributeMultiString bkp:DSAttrName="url"/>
+                        <DSAttributeString bkp:DSAttrName="setupCommand"/>
+                        <DSAttributeString bkp:DSAttrName="lastUpdateSequence"><DSValue><![CDATA[20230213130048]]></DSValue></DSAttributeString>
+                        <DSAttributeMultiString bkp:DSAttrName="msiFileList"><DSValue><![CDATA[0:\\vSRV03\applications\FileZilla MSI Installer.msi]]></DSValue></DSAttributeMultiString>
+                        <DSAttributeMultiString bkp:DSAttrName="categories"/>
+                        <DSAttributeMultiString bkp:DSAttrName="canUpgradeScript"/>
+                        <DSAttributeDWORD bkp:DSAttrName="installUiLevel"><DSValue><![CDATA[5]]></DSValue></DSAttributeDWORD>
+                        <DSAttributeBinary bkp:DSAttrName="msiScript"/>
+                        <DSAttributeString bkp:DSAttrName="displayName"><DSValue><![CDATA[FileZilla MSI Installer]]></DSValue></DSAttributeString>
+                        <DSAttributeBinary bkp:DSAttrName="productCode"><DSValue><![CDATA[09 bd 43 77 81 41 4f 48 82 fb f6 f1 b0 07 47 d9]]></DSValue></DSAttributeBinary>
+                        <DSAttributeBinary bkp:DSAttrName="upgradeProductCode"><DSValue><![CDATA[ef 11 81 f4 04 f0 de 4a 80 fd 4b 23 70 29 fe 60]]></DSValue></DSAttributeBinary>
+                        <DSAttributeString bkp:DSAttrName="Vendor"/>
+                    </DSObject><DSObject bkp:ObjectClass="packageRegistration" bkp:Path="CN=64f42bcf-9e39-4a88-881e-07a6b29656ae,CN=Packages,CN=Class Store,%GPO_MACH_DSPATH%" bkp:SourceExpandedPath="CN=64f42bcf-9e39-4a88-881e-07a6b29656ae,CN=Packages,CN=Class Store,cn=Machine,cn={22E8CA73-49DD-41D3-B2AF-75AC9359F74E},CN=Policies,CN=System,DC=curiger,DC=local" bkp:ReEvaluateFunction="SIProcessPackageObject"><FSObjectFile bkp:Path="%GPO_MACH_FSPATH%\Applications\{EC8EFA5D-7370-4048-9AF6-2874BA230492}.aas" bkp:SourceExpandedPath="\\vSRV01.curiger.local\sysvol\curiger.local\Policies\{22E8CA73-49DD-41D3-B2AF-75AC9359F74E}\Machine\Applications\{EC8EFA5D-7370-4048-9AF6-2874BA230492}.aas" bkp:Location="DomainSysvol\GPO\Machine\Applications\{EC8EFA5D-7370-4048-9AF6-2874BA230492}.aas"/>
+                        <SecurityDescriptor>01 00 04 8c 00 00 00 00 00 00 00 00 00 00 00 00 14 00 00 00 04 00 28 02 10 00 00 00 00 00 24 00 ff 01 0f 00 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 00 02 00 00 00 00 14 00 94 00 02 00 01 01 00 00 00 00 00 05 0b 00 00 00 00 00 14 00 ff 01 0f 00 01 01 00 00 00 00 00 05 12 00 00 00 05 12 38 00 00 01 00 00 01 00 00 00 8f fd ac ed b3 ff d1 11 b4 1d 00 a0 c9 68 f9 39 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 53 04 00 00 05 12 38 00 00 01 00 00 01 00 00 00 8f fd ac ed b3 ff d1 11 b4 1d 00 a0 c9 68 f9 39 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 54 04 00 00 05 12 38 00 00 01 00 00 01 00 00 00 8f fd ac ed b3 ff d1 11 b4 1d 00 a0 c9 68 f9 39 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 5b 04 00 00 05 12 28 00 00 01 00 00 01 00 00 00 8f fd ac ed b3 ff d1 11 b4 1d 00 a0 c9 68 f9 39 01 01 00 00 00 00 00 05 0b 00 00 00 00 12 24 00 14 00 02 00 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 53 04 00 00 00 12 24 00 14 00 02 00 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 54 04 00 00 00 12 24 00 14 00 02 00 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 5b 04 00 00 00 12 24 00 ff 00 0f 00 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 00 02 00 00 00 12 24 00 ff 00 0f 00 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 07 02 00 00 00 12 14 00 94 00 02 00 01 01 00 00 00 00 00 05 09 00 00 00 00 12 14 00 94 00 02 00 01 01 00 00 00 00 00 05 0b 00 00 00 00 12 14 00 ff 00 0f 00 01 01 00 00 00 00 00 05 12 00 00 00 00 1a 14 00 ff 00 0f 00 01 01 00 00 00 00 00 03 00 00 00 00</SecurityDescriptor>
+                        <DSAttributeBinary bkp:DSAttrName="objectGUID"><DSValue><![CDATA[50 9b 31 13 69 8d 1d 4f 99 f8 c6 3b 20 e0 fe 59]]></DSValue></DSAttributeBinary>
+                        <DSAttributeMultiString bkp:DSAttrName="cOMClassID"><DSValue><![CDATA[00000000-0000-0000-0000-000000000000:0]]></DSValue></DSAttributeMultiString>
+                        <DSAttributeMultiString bkp:DSAttrName="cOMProgID"/>
+                        <DSAttributeMultiString bkp:DSAttrName="fileExtPriority"/>
+                        <DSAttributeMultiDWORD bkp:DSAttrName="localeID"><DSValue><![CDATA[0]]></DSValue></DSAttributeMultiDWORD>
+                        <DSAttributeMultiDWORD bkp:DSAttrName="machineArchitecture"><DSValue><![CDATA[150996226]]></DSValue></DSAttributeMultiDWORD>
+                        <DSAttributeDWORD bkp:DSAttrName="versionNumberHi"><DSValue><![CDATA[109]]></DSValue></DSAttributeDWORD>
+                        <DSAttributeDWORD bkp:DSAttrName="versionNumberLo"><DSValue><![CDATA[0]]></DSValue></DSAttributeDWORD>
+                        <DSAttributeDWORD bkp:DSAttrName="revision"><DSValue><![CDATA[0]]></DSValue></DSAttributeDWORD>
+                        <DSAttributeDWORD bkp:DSAttrName="packageType"><DSValue><![CDATA[5]]></DSValue></DSAttributeDWORD>
+                        <DSAttributeDWORD bkp:DSAttrName="packageFlags"><DSValue><![CDATA[2684354832]]></DSValue></DSAttributeDWORD>
+                        <DSAttributeString bkp:DSAttrName="packageName"><DSValue><![CDATA[Mozilla Firefox 109.0.1 x64 en-US]]></DSValue></DSAttributeString>
+                        <DSAttributeString bkp:DSAttrName="msiScriptPath"><DSValue><![CDATA[\\curiger.local\SysVol\curiger.local\Policies\{22E8CA73-49DD-41D3-B2AF-75AC9359F74E}\Machine\Applications\{EC8EFA5D-7370-4048-9AF6-2874BA230492}.aas]]></DSValue></DSAttributeString>
+                        <DSAttributeString bkp:DSAttrName="msiScriptName"><DSValue><![CDATA[R]]></DSValue></DSAttributeString>
+                        <DSAttributeDWORD bkp:DSAttrName="msiScriptSize"/>
+                        <DSAttributeMultiString bkp:DSAttrName="url"/>
+                        <DSAttributeString bkp:DSAttrName="setupCommand"/>
+                        <DSAttributeString bkp:DSAttrName="lastUpdateSequence"><DSValue><![CDATA[20230213124123]]></DSValue></DSAttributeString>
+                        <DSAttributeMultiString bkp:DSAttrName="msiFileList"><DSValue><![CDATA[0:\\vSRV03\applications\Firefox Setup 109.0.1.msi]]></DSValue></DSAttributeMultiString>
+                        <DSAttributeMultiString bkp:DSAttrName="categories"/>
+                        <DSAttributeMultiString bkp:DSAttrName="canUpgradeScript"/>
+                        <DSAttributeDWORD bkp:DSAttrName="installUiLevel"><DSValue><![CDATA[5]]></DSValue></DSAttributeDWORD>
+                        <DSAttributeBinary bkp:DSAttrName="msiScript"/>
+                        <DSAttributeString bkp:DSAttrName="displayName"><DSValue><![CDATA[Mozilla Firefox 109.0.1 x64 en-US]]></DSValue></DSAttributeString>
+                        <DSAttributeBinary bkp:DSAttrName="productCode"><DSValue><![CDATA[c5 a4 94 12 77 99 0f 48 94 97 c0 ea 1e 63 01 30]]></DSValue></DSAttributeBinary>
+                        <DSAttributeBinary bkp:DSAttrName="upgradeProductCode"><DSValue><![CDATA[4c ab 18 31 33 b4 bb 4f b9 fa 8f 9c a4 b5 c1 03]]></DSValue></DSAttributeBinary>
+                        <DSAttributeString bkp:DSAttrName="Vendor"/>
+                    </DSObject><DSObject bkp:ObjectClass="packageRegistration" bkp:Path="CN=5ead457d-ae97-464e-9f0f-fd5e6909d8fb,CN=Packages,CN=Class Store,%GPO_MACH_DSPATH%" bkp:SourceExpandedPath="CN=5ead457d-ae97-464e-9f0f-fd5e6909d8fb,CN=Packages,CN=Class Store,cn=Machine,cn={22E8CA73-49DD-41D3-B2AF-75AC9359F74E},CN=Policies,CN=System,DC=curiger,DC=local" bkp:ReEvaluateFunction="SIProcessPackageObject"><FSObjectFile bkp:Path="%GPO_MACH_FSPATH%\Applications\{82BE449E-5501-4775-9105-C4D75A575899}.aas" bkp:SourceExpandedPath="\\vSRV01.curiger.local\sysvol\curiger.local\Policies\{22E8CA73-49DD-41D3-B2AF-75AC9359F74E}\Machine\Applications\{82BE449E-5501-4775-9105-C4D75A575899}.aas" bkp:Location="DomainSysvol\GPO\Machine\Applications\{82BE449E-5501-4775-9105-C4D75A575899}.aas"/>
+                        <SecurityDescriptor>01 00 04 8c 00 00 00 00 00 00 00 00 00 00 00 00 14 00 00 00 04 00 28 02 10 00 00 00 00 00 24 00 ff 01 0f 00 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 00 02 00 00 00 00 14 00 94 00 02 00 01 01 00 00 00 00 00 05 0b 00 00 00 00 00 14 00 ff 01 0f 00 01 01 00 00 00 00 00 05 12 00 00 00 05 12 38 00 00 01 00 00 01 00 00 00 8f fd ac ed b3 ff d1 11 b4 1d 00 a0 c9 68 f9 39 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 53 04 00 00 05 12 38 00 00 01 00 00 01 00 00 00 8f fd ac ed b3 ff d1 11 b4 1d 00 a0 c9 68 f9 39 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 54 04 00 00 05 12 38 00 00 01 00 00 01 00 00 00 8f fd ac ed b3 ff d1 11 b4 1d 00 a0 c9 68 f9 39 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 5b 04 00 00 05 12 28 00 00 01 00 00 01 00 00 00 8f fd ac ed b3 ff d1 11 b4 1d 00 a0 c9 68 f9 39 01 01 00 00 00 00 00 05 0b 00 00 00 00 12 24 00 14 00 02 00 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 53 04 00 00 00 12 24 00 14 00 02 00 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 54 04 00 00 00 12 24 00 14 00 02 00 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 5b 04 00 00 00 12 24 00 ff 00 0f 00 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 00 02 00 00 00 12 24 00 ff 00 0f 00 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 07 02 00 00 00 12 14 00 94 00 02 00 01 01 00 00 00 00 00 05 09 00 00 00 00 12 14 00 94 00 02 00 01 01 00 00 00 00 00 05 0b 00 00 00 00 12 14 00 ff 00 0f 00 01 01 00 00 00 00 00 05 12 00 00 00 00 1a 14 00 ff 00 0f 00 01 01 00 00 00 00 00 03 00 00 00 00</SecurityDescriptor>
+                        <DSAttributeBinary bkp:DSAttrName="objectGUID"><DSValue><![CDATA[63 dd 0a 6a 36 06 26 45 aa 4f e6 6b f7 b3 4d 82]]></DSValue></DSAttributeBinary>
+                        <DSAttributeMultiString bkp:DSAttrName="cOMClassID"><DSValue><![CDATA[00000000-0000-0000-0000-000000000000:0]]></DSValue></DSAttributeMultiString>
+                        <DSAttributeMultiString bkp:DSAttrName="cOMProgID"/>
+                        <DSAttributeMultiString bkp:DSAttrName="fileExtPriority"/>
+                        <DSAttributeMultiDWORD bkp:DSAttrName="localeID"><DSValue><![CDATA[1033]]></DSValue></DSAttributeMultiDWORD>
+                        <DSAttributeMultiDWORD bkp:DSAttrName="machineArchitecture"><DSValue><![CDATA[150996226]]></DSValue></DSAttributeMultiDWORD>
+                        <DSAttributeDWORD bkp:DSAttrName="versionNumberHi"><DSValue><![CDATA[22]]></DSValue></DSAttributeDWORD>
+                        <DSAttributeDWORD bkp:DSAttrName="versionNumberLo"><DSValue><![CDATA[1]]></DSValue></DSAttributeDWORD>
+                        <DSAttributeDWORD bkp:DSAttrName="revision"><DSValue><![CDATA[0]]></DSValue></DSAttributeDWORD>
+                        <DSAttributeDWORD bkp:DSAttrName="packageType"><DSValue><![CDATA[5]]></DSValue></DSAttributeDWORD>
+                        <DSAttributeDWORD bkp:DSAttrName="packageFlags"><DSValue><![CDATA[2684354832]]></DSValue></DSAttributeDWORD>
+                        <DSAttributeString bkp:DSAttrName="packageName"><DSValue><![CDATA[7-Zip 22.01 (x64 edition)]]></DSValue></DSAttributeString>
+                        <DSAttributeString bkp:DSAttrName="msiScriptPath"><DSValue><![CDATA[\\curiger.local\SysVol\curiger.local\Policies\{22E8CA73-49DD-41D3-B2AF-75AC9359F74E}\Machine\Applications\{82BE449E-5501-4775-9105-C4D75A575899}.aas]]></DSValue></DSAttributeString>
+                        <DSAttributeString bkp:DSAttrName="msiScriptName"><DSValue><![CDATA[R]]></DSValue></DSAttributeString>
+                        <DSAttributeDWORD bkp:DSAttrName="msiScriptSize"/>
+                        <DSAttributeMultiString bkp:DSAttrName="url"><DSValue><![CDATA[http://www.7-zip.org/support.html]]></DSValue></DSAttributeMultiString>
+                        <DSAttributeString bkp:DSAttrName="setupCommand"/>
+                        <DSAttributeString bkp:DSAttrName="lastUpdateSequence"><DSValue><![CDATA[20230213130753]]></DSValue></DSAttributeString>
+                        <DSAttributeMultiString bkp:DSAttrName="msiFileList"><DSValue><![CDATA[0:F:\shared\applications\applications\7z2201-x64.msi]]></DSValue></DSAttributeMultiString>
+                        <DSAttributeMultiString bkp:DSAttrName="categories"/>
+                        <DSAttributeMultiString bkp:DSAttrName="canUpgradeScript"/>
+                        <DSAttributeDWORD bkp:DSAttrName="installUiLevel"><DSValue><![CDATA[5]]></DSValue></DSAttributeDWORD>
+                        <DSAttributeBinary bkp:DSAttrName="msiScript"/>
+                        <DSAttributeString bkp:DSAttrName="displayName"><DSValue><![CDATA[7-Zip 22.01 (x64 edition)]]></DSValue></DSAttributeString>
+                        <DSAttributeBinary bkp:DSAttrName="productCode"><DSValue><![CDATA[69 0f 17 23 c1 40 02 27 22 01 00 00 01 00 00 00]]></DSValue></DSAttributeBinary>
+                        <DSAttributeBinary bkp:DSAttrName="upgradeProductCode"><DSValue><![CDATA[69 0f 17 23 c1 40 02 27 00 00 00 00 04 00 00 00]]></DSValue></DSAttributeBinary>
+                        <DSAttributeString bkp:DSAttrName="Vendor"/>
+                    </DSObject><DSObject bkp:ObjectClass="packageRegistration" bkp:Path="CN=5ba20fac-09fe-444f-b5ca-2c8d34a256bd,CN=Packages,CN=Class Store,%GPO_MACH_DSPATH%" bkp:SourceExpandedPath="CN=5ba20fac-09fe-444f-b5ca-2c8d34a256bd,CN=Packages,CN=Class Store,cn=Machine,cn={22E8CA73-49DD-41D3-B2AF-75AC9359F74E},CN=Policies,CN=System,DC=curiger,DC=local" bkp:ReEvaluateFunction="SIProcessPackageObject"><FSObjectFile bkp:Path="%GPO_MACH_FSPATH%\Applications\{B70FDFBF-325C-4706-89D1-F7B888932EE5}.aas" bkp:SourceExpandedPath="\\vSRV01.curiger.local\sysvol\curiger.local\Policies\{22E8CA73-49DD-41D3-B2AF-75AC9359F74E}\Machine\Applications\{B70FDFBF-325C-4706-89D1-F7B888932EE5}.aas" bkp:Location="DomainSysvol\GPO\Machine\Applications\{B70FDFBF-325C-4706-89D1-F7B888932EE5}.aas"/>
+                        <SecurityDescriptor>01 00 04 8c 00 00 00 00 00 00 00 00 00 00 00 00 14 00 00 00 04 00 28 02 10 00 00 00 00 00 24 00 ff 01 0f 00 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 00 02 00 00 00 00 14 00 94 00 02 00 01 01 00 00 00 00 00 05 0b 00 00 00 00 00 14 00 ff 01 0f 00 01 01 00 00 00 00 00 05 12 00 00 00 05 12 38 00 00 01 00 00 01 00 00 00 8f fd ac ed b3 ff d1 11 b4 1d 00 a0 c9 68 f9 39 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 53 04 00 00 05 12 38 00 00 01 00 00 01 00 00 00 8f fd ac ed b3 ff d1 11 b4 1d 00 a0 c9 68 f9 39 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 54 04 00 00 05 12 38 00 00 01 00 00 01 00 00 00 8f fd ac ed b3 ff d1 11 b4 1d 00 a0 c9 68 f9 39 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 5b 04 00 00 05 12 28 00 00 01 00 00 01 00 00 00 8f fd ac ed b3 ff d1 11 b4 1d 00 a0 c9 68 f9 39 01 01 00 00 00 00 00 05 0b 00 00 00 00 12 24 00 14 00 02 00 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 53 04 00 00 00 12 24 00 14 00 02 00 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 54 04 00 00 00 12 24 00 14 00 02 00 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 5b 04 00 00 00 12 24 00 ff 00 0f 00 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 00 02 00 00 00 12 24 00 ff 00 0f 00 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 07 02 00 00 00 12 14 00 94 00 02 00 01 01 00 00 00 00 00 05 09 00 00 00 00 12 14 00 94 00 02 00 01 01 00 00 00 00 00 05 0b 00 00 00 00 12 14 00 ff 00 0f 00 01 01 00 00 00 00 00 05 12 00 00 00 00 1a 14 00 ff 00 0f 00 01 01 00 00 00 00 00 03 00 00 00 00</SecurityDescriptor>
+                        <DSAttributeBinary bkp:DSAttrName="objectGUID"><DSValue><![CDATA[52 25 c5 5f 36 1e c4 4c 81 1a 3a 33 fb f4 c7 87]]></DSValue></DSAttributeBinary>
+                        <DSAttributeMultiString bkp:DSAttrName="cOMClassID"><DSValue><![CDATA[00000000-0000-0000-0000-000000000000:0]]></DSValue></DSAttributeMultiString>
+                        <DSAttributeMultiString bkp:DSAttrName="cOMProgID"/>
+                        <DSAttributeMultiString bkp:DSAttrName="fileExtPriority"/>
+                        <DSAttributeMultiDWORD bkp:DSAttrName="localeID"><DSValue><![CDATA[1033]]></DSValue></DSAttributeMultiDWORD>
+                        <DSAttributeMultiDWORD bkp:DSAttrName="machineArchitecture"><DSValue><![CDATA[150996226]]></DSValue></DSAttributeMultiDWORD>
+                        <DSAttributeDWORD bkp:DSAttrName="versionNumberHi"><DSValue><![CDATA[7]]></DSValue></DSAttributeDWORD>
+                        <DSAttributeDWORD bkp:DSAttrName="versionNumberLo"><DSValue><![CDATA[9]]></DSValue></DSAttributeDWORD>
+                        <DSAttributeDWORD bkp:DSAttrName="revision"><DSValue><![CDATA[0]]></DSValue></DSAttributeDWORD>
+                        <DSAttributeDWORD bkp:DSAttrName="packageType"><DSValue><![CDATA[5]]></DSValue></DSAttributeDWORD>
+                        <DSAttributeDWORD bkp:DSAttrName="packageFlags"><DSValue><![CDATA[2684354832]]></DSValue></DSAttributeDWORD>
+                        <DSAttributeString bkp:DSAttrName="packageName"><DSValue><![CDATA[Notepad++ (64-bit x64)]]></DSValue></DSAttributeString>
+                        <DSAttributeString bkp:DSAttrName="msiScriptPath"><DSValue><![CDATA[\\curiger.local\SysVol\curiger.local\Policies\{22E8CA73-49DD-41D3-B2AF-75AC9359F74E}\Machine\Applications\{B70FDFBF-325C-4706-89D1-F7B888932EE5}.aas]]></DSValue></DSAttributeString>
+                        <DSAttributeString bkp:DSAttrName="msiScriptName"><DSValue><![CDATA[R]]></DSValue></DSAttributeString>
+                        <DSAttributeDWORD bkp:DSAttrName="msiScriptSize"/>
+                        <DSAttributeMultiString bkp:DSAttrName="url"/>
+                        <DSAttributeString bkp:DSAttrName="setupCommand"/>
+                        <DSAttributeString bkp:DSAttrName="lastUpdateSequence"><DSValue><![CDATA[20230213131048]]></DSValue></DSAttributeString>
+                        <DSAttributeMultiString bkp:DSAttrName="msiFileList"><DSValue><![CDATA[0:F:\shared\applications\applications\Notepad++7_9_1.msi]]></DSValue></DSAttributeMultiString>
+                        <DSAttributeMultiString bkp:DSAttrName="categories"/>
+                        <DSAttributeMultiString bkp:DSAttrName="canUpgradeScript"/>
+                        <DSAttributeDWORD bkp:DSAttrName="installUiLevel"><DSValue><![CDATA[5]]></DSValue></DSAttributeDWORD>
+                        <DSAttributeBinary bkp:DSAttrName="msiScript"/>
+                        <DSAttributeString bkp:DSAttrName="displayName"><DSValue><![CDATA[Notepad++ (64-bit x64)]]></DSValue></DSAttributeString>
+                        <DSAttributeBinary bkp:DSAttrName="productCode"><DSValue><![CDATA[86 94 ab 84 ef 65 2e 40 b0 61 b1 28 fb ce f9 1b]]></DSValue></DSAttributeBinary>
+                        <DSAttributeBinary bkp:DSAttrName="upgradeProductCode"><DSValue><![CDATA[71 a7 7e 66 96 e7 e6 4f 93 99 90 4c d4 aa b2 29]]></DSValue></DSAttributeBinary>
+                        <DSAttributeString bkp:DSAttrName="Vendor"/>
+                    </DSObject><DSObject bkp:ObjectClass="packageRegistration" bkp:Path="CN=4c2a272c-1104-44d7-87ef-a487d169f2e1,CN=Packages,CN=Class Store,%GPO_MACH_DSPATH%" bkp:SourceExpandedPath="CN=4c2a272c-1104-44d7-87ef-a487d169f2e1,CN=Packages,CN=Class Store,cn=Machine,cn={22E8CA73-49DD-41D3-B2AF-75AC9359F74E},CN=Policies,CN=System,DC=curiger,DC=local" bkp:ReEvaluateFunction="SIProcessPackageObject"><FSObjectFile bkp:Path="%GPO_MACH_FSPATH%\Applications\{0E2FA261-4E14-4CCE-AE3F-D0B75F056C8B}.aas" bkp:SourceExpandedPath="\\vSRV01.curiger.local\sysvol\curiger.local\Policies\{22E8CA73-49DD-41D3-B2AF-75AC9359F74E}\Machine\Applications\{0E2FA261-4E14-4CCE-AE3F-D0B75F056C8B}.aas" bkp:Location="DomainSysvol\GPO\Machine\Applications\{0E2FA261-4E14-4CCE-AE3F-D0B75F056C8B}.aas"/>
+                        <SecurityDescriptor>01 00 04 8c 00 00 00 00 00 00 00 00 00 00 00 00 14 00 00 00 04 00 28 02 10 00 00 00 00 00 24 00 ff 01 0f 00 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 00 02 00 00 00 00 14 00 94 00 02 00 01 01 00 00 00 00 00 05 0b 00 00 00 00 00 14 00 ff 01 0f 00 01 01 00 00 00 00 00 05 12 00 00 00 05 12 38 00 00 01 00 00 01 00 00 00 8f fd ac ed b3 ff d1 11 b4 1d 00 a0 c9 68 f9 39 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 53 04 00 00 05 12 38 00 00 01 00 00 01 00 00 00 8f fd ac ed b3 ff d1 11 b4 1d 00 a0 c9 68 f9 39 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 54 04 00 00 05 12 38 00 00 01 00 00 01 00 00 00 8f fd ac ed b3 ff d1 11 b4 1d 00 a0 c9 68 f9 39 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 5b 04 00 00 05 12 28 00 00 01 00 00 01 00 00 00 8f fd ac ed b3 ff d1 11 b4 1d 00 a0 c9 68 f9 39 01 01 00 00 00 00 00 05 0b 00 00 00 00 12 24 00 14 00 02 00 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 53 04 00 00 00 12 24 00 14 00 02 00 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 54 04 00 00 00 12 24 00 14 00 02 00 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 5b 04 00 00 00 12 24 00 ff 00 0f 00 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 00 02 00 00 00 12 24 00 ff 00 0f 00 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 07 02 00 00 00 12 14 00 94 00 02 00 01 01 00 00 00 00 00 05 09 00 00 00 00 12 14 00 94 00 02 00 01 01 00 00 00 00 00 05 0b 00 00 00 00 12 14 00 ff 00 0f 00 01 01 00 00 00 00 00 05 12 00 00 00 00 1a 14 00 ff 00 0f 00 01 01 00 00 00 00 00 03 00 00 00 00</SecurityDescriptor>
+                        <DSAttributeBinary bkp:DSAttrName="objectGUID"><DSValue><![CDATA[03 8f 63 7b 9f a2 f4 4d 8c 69 66 7a 22 a0 4b d8]]></DSValue></DSAttributeBinary>
+                        <DSAttributeMultiString bkp:DSAttrName="cOMClassID"><DSValue><![CDATA[00000000-0000-0000-0000-000000000000:0]]></DSValue></DSAttributeMultiString>
+                        <DSAttributeMultiString bkp:DSAttrName="cOMProgID"/>
+                        <DSAttributeMultiString bkp:DSAttrName="fileExtPriority"/>
+                        <DSAttributeMultiDWORD bkp:DSAttrName="localeID"><DSValue><![CDATA[1033]]></DSValue></DSAttributeMultiDWORD>
+                        <DSAttributeMultiDWORD bkp:DSAttrName="machineArchitecture"><DSValue><![CDATA[1282]]></DSValue></DSAttributeMultiDWORD>
+                        <DSAttributeDWORD bkp:DSAttrName="versionNumberHi"><DSValue><![CDATA[22]]></DSValue></DSAttributeDWORD>
+                        <DSAttributeDWORD bkp:DSAttrName="versionNumberLo"><DSValue><![CDATA[1]]></DSValue></DSAttributeDWORD>
+                        <DSAttributeDWORD bkp:DSAttrName="revision"><DSValue><![CDATA[0]]></DSValue></DSAttributeDWORD>
+                        <DSAttributeDWORD bkp:DSAttrName="packageType"><DSValue><![CDATA[5]]></DSValue></DSAttributeDWORD>
+                        <DSAttributeDWORD bkp:DSAttrName="packageFlags"><DSValue><![CDATA[2684374128]]></DSValue></DSAttributeDWORD>
+                        <DSAttributeString bkp:DSAttrName="packageName"><DSValue><![CDATA[7-Zip 22.01]]></DSValue></DSAttributeString>
+                        <DSAttributeString bkp:DSAttrName="msiScriptPath"><DSValue><![CDATA[\\curiger.local\SysVol\curiger.local\Policies\{22E8CA73-49DD-41D3-B2AF-75AC9359F74E}\Machine\Applications\{0E2FA261-4E14-4CCE-AE3F-D0B75F056C8B}.aas]]></DSValue></DSAttributeString>
+                        <DSAttributeString bkp:DSAttrName="msiScriptName"><DSValue><![CDATA[A]]></DSValue></DSAttributeString>
+                        <DSAttributeDWORD bkp:DSAttrName="msiScriptSize"/>
+                        <DSAttributeMultiString bkp:DSAttrName="url"><DSValue><![CDATA[http://www.7-zip.org/support.html]]></DSValue></DSAttributeMultiString>
+                        <DSAttributeString bkp:DSAttrName="setupCommand"/>
+                        <DSAttributeString bkp:DSAttrName="lastUpdateSequence"><DSValue><![CDATA[20230213132707]]></DSValue></DSAttributeString>
+                        <DSAttributeMultiString bkp:DSAttrName="msiFileList"><DSValue><![CDATA[0:\\vsrv03\deployment\7z2201.msi]]></DSValue></DSAttributeMultiString>
+                        <DSAttributeMultiString bkp:DSAttrName="categories"/>
+                        <DSAttributeMultiString bkp:DSAttrName="canUpgradeScript"/>
+                        <DSAttributeDWORD bkp:DSAttrName="installUiLevel"><DSValue><![CDATA[5]]></DSValue></DSAttributeDWORD>
+                        <DSAttributeBinary bkp:DSAttrName="msiScript"/>
+                        <DSAttributeString bkp:DSAttrName="displayName"><DSValue><![CDATA[7-Zip 22.01]]></DSValue></DSAttributeString>
+                        <DSAttributeBinary bkp:DSAttrName="productCode"><DSValue><![CDATA[69 0f 17 23 c1 40 01 27 22 01 00 00 01 00 00 00]]></DSValue></DSAttributeBinary>
+                        <DSAttributeBinary bkp:DSAttrName="upgradeProductCode"><DSValue><![CDATA[69 0f 17 23 c1 40 01 27 00 00 00 00 04 00 00 00]]></DSValue></DSAttributeBinary>
+                        <DSAttributeString bkp:DSAttrName="Vendor"/>
+                    </DSObject><DSObject bkp:ObjectClass="packageRegistration" bkp:Path="CN=4b4c3da0-1929-4432-af80-e6f849181305,CN=Packages,CN=Class Store,%GPO_MACH_DSPATH%" bkp:SourceExpandedPath="CN=4b4c3da0-1929-4432-af80-e6f849181305,CN=Packages,CN=Class Store,cn=Machine,cn={22E8CA73-49DD-41D3-B2AF-75AC9359F74E},CN=Policies,CN=System,DC=curiger,DC=local" bkp:ReEvaluateFunction="SIProcessPackageObject"><FSObjectFile bkp:Path="%GPO_MACH_FSPATH%\Applications\{D2CD501C-F20B-4C19-A4C5-80B9BC37C782}.aas" bkp:SourceExpandedPath="\\vSRV01.curiger.local\sysvol\curiger.local\Policies\{22E8CA73-49DD-41D3-B2AF-75AC9359F74E}\Machine\Applications\{D2CD501C-F20B-4C19-A4C5-80B9BC37C782}.aas" bkp:Location="DomainSysvol\GPO\Machine\Applications\{D2CD501C-F20B-4C19-A4C5-80B9BC37C782}.aas"/>
+                        <SecurityDescriptor>01 00 04 8c 00 00 00 00 00 00 00 00 00 00 00 00 14 00 00 00 04 00 28 02 10 00 00 00 00 00 24 00 ff 01 0f 00 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 00 02 00 00 00 00 14 00 94 00 02 00 01 01 00 00 00 00 00 05 0b 00 00 00 00 00 14 00 ff 01 0f 00 01 01 00 00 00 00 00 05 12 00 00 00 05 12 38 00 00 01 00 00 01 00 00 00 8f fd ac ed b3 ff d1 11 b4 1d 00 a0 c9 68 f9 39 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 53 04 00 00 05 12 38 00 00 01 00 00 01 00 00 00 8f fd ac ed b3 ff d1 11 b4 1d 00 a0 c9 68 f9 39 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 54 04 00 00 05 12 38 00 00 01 00 00 01 00 00 00 8f fd ac ed b3 ff d1 11 b4 1d 00 a0 c9 68 f9 39 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 5b 04 00 00 05 12 28 00 00 01 00 00 01 00 00 00 8f fd ac ed b3 ff d1 11 b4 1d 00 a0 c9 68 f9 39 01 01 00 00 00 00 00 05 0b 00 00 00 00 12 24 00 14 00 02 00 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 53 04 00 00 00 12 24 00 14 00 02 00 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 54 04 00 00 00 12 24 00 14 00 02 00 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 5b 04 00 00 00 12 24 00 ff 00 0f 00 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 00 02 00 00 00 12 24 00 ff 00 0f 00 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 07 02 00 00 00 12 14 00 94 00 02 00 01 01 00 00 00 00 00 05 09 00 00 00 00 12 14 00 94 00 02 00 01 01 00 00 00 00 00 05 0b 00 00 00 00 12 14 00 ff 00 0f 00 01 01 00 00 00 00 00 05 12 00 00 00 00 1a 14 00 ff 00 0f 00 01 01 00 00 00 00 00 03 00 00 00 00</SecurityDescriptor>
+                        <DSAttributeBinary bkp:DSAttrName="objectGUID"><DSValue><![CDATA[45 dc f8 44 c4 d4 72 4c 9f da 03 de 6f c6 a9 19]]></DSValue></DSAttributeBinary>
+                        <DSAttributeMultiString bkp:DSAttrName="cOMClassID"><DSValue><![CDATA[00000000-0000-0000-0000-000000000000:0]]></DSValue></DSAttributeMultiString>
+                        <DSAttributeMultiString bkp:DSAttrName="cOMProgID"/>
+                        <DSAttributeMultiString bkp:DSAttrName="fileExtPriority"/>
+                        <DSAttributeMultiDWORD bkp:DSAttrName="localeID"><DSValue><![CDATA[1033]]></DSValue></DSAttributeMultiDWORD>
+                        <DSAttributeMultiDWORD bkp:DSAttrName="machineArchitecture"><DSValue><![CDATA[150996226]]></DSValue></DSAttributeMultiDWORD>
+                        <DSAttributeDWORD bkp:DSAttrName="versionNumberHi"><DSValue><![CDATA[22]]></DSValue></DSAttributeDWORD>
+                        <DSAttributeDWORD bkp:DSAttrName="versionNumberLo"><DSValue><![CDATA[1]]></DSValue></DSAttributeDWORD>
+                        <DSAttributeDWORD bkp:DSAttrName="revision"><DSValue><![CDATA[0]]></DSValue></DSAttributeDWORD>
+                        <DSAttributeDWORD bkp:DSAttrName="packageType"><DSValue><![CDATA[5]]></DSValue></DSAttributeDWORD>
+                        <DSAttributeDWORD bkp:DSAttrName="packageFlags"><DSValue><![CDATA[2684354832]]></DSValue></DSAttributeDWORD>
+                        <DSAttributeString bkp:DSAttrName="packageName"><DSValue><![CDATA[7-Zip 22.01 (x64 edition)]]></DSValue></DSAttributeString>
+                        <DSAttributeString bkp:DSAttrName="msiScriptPath"><DSValue><![CDATA[\\curiger.local\SysVol\curiger.local\Policies\{22E8CA73-49DD-41D3-B2AF-75AC9359F74E}\Machine\Applications\{D2CD501C-F20B-4C19-A4C5-80B9BC37C782}.aas]]></DSValue></DSAttributeString>
+                        <DSAttributeString bkp:DSAttrName="msiScriptName"><DSValue><![CDATA[R]]></DSValue></DSAttributeString>
+                        <DSAttributeDWORD bkp:DSAttrName="msiScriptSize"/>
+                        <DSAttributeMultiString bkp:DSAttrName="url"><DSValue><![CDATA[http://www.7-zip.org/support.html]]></DSValue></DSAttributeMultiString>
+                        <DSAttributeString bkp:DSAttrName="setupCommand"/>
+                        <DSAttributeString bkp:DSAttrName="lastUpdateSequence"><DSValue><![CDATA[20230213132653]]></DSValue></DSAttributeString>
+                        <DSAttributeMultiString bkp:DSAttrName="msiFileList"><DSValue><![CDATA[0:\\vsrv03\deployment\7z2201-x64.msi]]></DSValue></DSAttributeMultiString>
+                        <DSAttributeMultiString bkp:DSAttrName="categories"/>
+                        <DSAttributeMultiString bkp:DSAttrName="canUpgradeScript"/>
+                        <DSAttributeDWORD bkp:DSAttrName="installUiLevel"><DSValue><![CDATA[5]]></DSValue></DSAttributeDWORD>
+                        <DSAttributeBinary bkp:DSAttrName="msiScript"/>
+                        <DSAttributeString bkp:DSAttrName="displayName"><DSValue><![CDATA[7-Zip 22.01 (x64 edition)]]></DSValue></DSAttributeString>
+                        <DSAttributeBinary bkp:DSAttrName="productCode"><DSValue><![CDATA[69 0f 17 23 c1 40 02 27 22 01 00 00 01 00 00 00]]></DSValue></DSAttributeBinary>
+                        <DSAttributeBinary bkp:DSAttrName="upgradeProductCode"><DSValue><![CDATA[69 0f 17 23 c1 40 02 27 00 00 00 00 04 00 00 00]]></DSValue></DSAttributeBinary>
+                        <DSAttributeString bkp:DSAttrName="Vendor"/>
+                    </DSObject><DSObject bkp:ObjectClass="packageRegistration" bkp:Path="CN=034dbb60-32e6-4d67-bd78-1c83bca272cb,CN=Packages,CN=Class Store,%GPO_MACH_DSPATH%" bkp:SourceExpandedPath="CN=034dbb60-32e6-4d67-bd78-1c83bca272cb,CN=Packages,CN=Class Store,cn=Machine,cn={22E8CA73-49DD-41D3-B2AF-75AC9359F74E},CN=Policies,CN=System,DC=curiger,DC=local" bkp:ReEvaluateFunction="SIProcessPackageObject"><FSObjectFile bkp:Path="%GPO_MACH_FSPATH%\Applications\{23F9E013-8BF3-4A79-9405-FB0BE2B2132F}.aas" bkp:SourceExpandedPath="\\vSRV01.curiger.local\sysvol\curiger.local\Policies\{22E8CA73-49DD-41D3-B2AF-75AC9359F74E}\Machine\Applications\{23F9E013-8BF3-4A79-9405-FB0BE2B2132F}.aas" bkp:Location="DomainSysvol\GPO\Machine\Applications\{23F9E013-8BF3-4A79-9405-FB0BE2B2132F}.aas"/>
+                        <SecurityDescriptor>01 00 04 8c 00 00 00 00 00 00 00 00 00 00 00 00 14 00 00 00 04 00 28 02 10 00 00 00 00 00 24 00 ff 01 0f 00 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 00 02 00 00 00 00 14 00 94 00 02 00 01 01 00 00 00 00 00 05 0b 00 00 00 00 00 14 00 ff 01 0f 00 01 01 00 00 00 00 00 05 12 00 00 00 05 12 38 00 00 01 00 00 01 00 00 00 8f fd ac ed b3 ff d1 11 b4 1d 00 a0 c9 68 f9 39 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 53 04 00 00 05 12 38 00 00 01 00 00 01 00 00 00 8f fd ac ed b3 ff d1 11 b4 1d 00 a0 c9 68 f9 39 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 54 04 00 00 05 12 38 00 00 01 00 00 01 00 00 00 8f fd ac ed b3 ff d1 11 b4 1d 00 a0 c9 68 f9 39 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 5b 04 00 00 05 12 28 00 00 01 00 00 01 00 00 00 8f fd ac ed b3 ff d1 11 b4 1d 00 a0 c9 68 f9 39 01 01 00 00 00 00 00 05 0b 00 00 00 00 12 24 00 14 00 02 00 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 53 04 00 00 00 12 24 00 14 00 02 00 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 54 04 00 00 00 12 24 00 14 00 02 00 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 5b 04 00 00 00 12 24 00 ff 00 0f 00 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 00 02 00 00 00 12 24 00 ff 00 0f 00 01 05 00 00 00 00 00 05 15 00 00 00 69 a7 71 c7 b3 5e 47 58 80 47 78 aa 07 02 00 00 00 12 14 00 94 00 02 00 01 01 00 00 00 00 00 05 09 00 00 00 00 12 14 00 94 00 02 00 01 01 00 00 00 00 00 05 0b 00 00 00 00 12 14 00 ff 00 0f 00 01 01 00 00 00 00 00 05 12 00 00 00 00 1a 14 00 ff 00 0f 00 01 01 00 00 00 00 00 03 00 00 00 00</SecurityDescriptor>
+                        <DSAttributeBinary bkp:DSAttrName="objectGUID"><DSValue><![CDATA[ae cb b0 72 9e b4 52 4f b5 38 a6 d9 7b 1a ab 62]]></DSValue></DSAttributeBinary>
+                        <DSAttributeMultiString bkp:DSAttrName="cOMClassID"><DSValue><![CDATA[00000000-0000-0000-0000-000000000000:0]]></DSValue></DSAttributeMultiString>
+                        <DSAttributeMultiString bkp:DSAttrName="cOMProgID"/>
+                        <DSAttributeMultiString bkp:DSAttrName="fileExtPriority"/>
+                        <DSAttributeMultiDWORD bkp:DSAttrName="localeID"><DSValue><![CDATA[0]]></DSValue></DSAttributeMultiDWORD>
+                        <DSAttributeMultiDWORD bkp:DSAttrName="machineArchitecture"><DSValue><![CDATA[150996226]]></DSValue></DSAttributeMultiDWORD>
+                        <DSAttributeDWORD bkp:DSAttrName="versionNumberHi"><DSValue><![CDATA[109]]></DSValue></DSAttributeDWORD>
+                        <DSAttributeDWORD bkp:DSAttrName="versionNumberLo"><DSValue><![CDATA[0]]></DSValue></DSAttributeDWORD>
+                        <DSAttributeDWORD bkp:DSAttrName="revision"><DSValue><![CDATA[1]]></DSValue></DSAttributeDWORD>
+                        <DSAttributeDWORD bkp:DSAttrName="packageType"><DSValue><![CDATA[5]]></DSValue></DSAttributeDWORD>
+                        <DSAttributeDWORD bkp:DSAttrName="packageFlags"><DSValue><![CDATA[2684354832]]></DSValue></DSAttributeDWORD>
+                        <DSAttributeString bkp:DSAttrName="packageName"><DSValue><![CDATA[Mozilla Firefox 109.0.1 x64 en-US]]></DSValue></DSAttributeString>
+                        <DSAttributeString bkp:DSAttrName="msiScriptPath"><DSValue><![CDATA[\\curiger.local\SysVol\curiger.local\Policies\{22E8CA73-49DD-41D3-B2AF-75AC9359F74E}\Machine\Applications\{23F9E013-8BF3-4A79-9405-FB0BE2B2132F}.aas]]></DSValue></DSAttributeString>
+                        <DSAttributeString bkp:DSAttrName="msiScriptName"><DSValue><![CDATA[R]]></DSValue></DSAttributeString>
+                        <DSAttributeDWORD bkp:DSAttrName="msiScriptSize"/>
+                        <DSAttributeMultiString bkp:DSAttrName="url"/>
+                        <DSAttributeString bkp:DSAttrName="setupCommand"/>
+                        <DSAttributeString bkp:DSAttrName="lastUpdateSequence"><DSValue><![CDATA[20230213130045]]></DSValue></DSAttributeString>
+                        <DSAttributeMultiString bkp:DSAttrName="msiFileList"><DSValue><![CDATA[0:\\vSRV03\applications\Firefox Setup 109.0.1.msi]]></DSValue></DSAttributeMultiString>
+                        <DSAttributeMultiString bkp:DSAttrName="categories"/>
+                        <DSAttributeMultiString bkp:DSAttrName="canUpgradeScript"/>
+                        <DSAttributeDWORD bkp:DSAttrName="installUiLevel"><DSValue><![CDATA[5]]></DSValue></DSAttributeDWORD>
+                        <DSAttributeBinary bkp:DSAttrName="msiScript"/>
+                        <DSAttributeString bkp:DSAttrName="displayName"><DSValue><![CDATA[Mozilla Firefox 109.0.1 x64 en-US]]></DSValue></DSAttributeString>
+                        <DSAttributeBinary bkp:DSAttrName="productCode"><DSValue><![CDATA[c5 a4 94 12 77 99 0f 48 94 97 c0 ea 1e 63 01 30]]></DSValue></DSAttributeBinary>
+                        <DSAttributeBinary bkp:DSAttrName="upgradeProductCode"><DSValue><![CDATA[4c ab 18 31 33 b4 bb 4f b9 fa 8f 9c a4 b5 c1 03]]></DSValue></DSAttributeBinary>
+                        <DSAttributeString bkp:DSAttrName="Vendor"/>
+                    </DSObject>
+                        <SecurityDescriptor/>
+                        <DSAttributeBinary bkp:DSAttrName="objectGUID"/>
+                        <DSAttributeMultiString bkp:DSAttrName="cOMClassID"/>
+                        <DSAttributeMultiString bkp:DSAttrName="cOMProgID"/>
+                        <DSAttributeMultiString bkp:DSAttrName="fileExtPriority"/>
+                        <DSAttributeMultiDWORD bkp:DSAttrName="localeID"/>
+                        <DSAttributeMultiDWORD bkp:DSAttrName="machineArchitecture"/>
+                        <DSAttributeDWORD bkp:DSAttrName="versionNumberHi"/>
+                        <DSAttributeDWORD bkp:DSAttrName="versionNumberLo"/>
+                        <DSAttributeDWORD bkp:DSAttrName="revision"/>
+                        <DSAttributeDWORD bkp:DSAttrName="packageType"/>
+                        <DSAttributeDWORD bkp:DSAttrName="packageFlags"/>
+                        <DSAttributeString bkp:DSAttrName="packageName"/>
+                        <DSAttributeString bkp:DSAttrName="msiScriptPath"/>
+                        <DSAttributeString bkp:DSAttrName="msiScriptName"/>
+                        <DSAttributeDWORD bkp:DSAttrName="msiScriptSize"/>
+                        <DSAttributeMultiString bkp:DSAttrName="url"/>
+                        <DSAttributeString bkp:DSAttrName="setupCommand"/>
+                        <DSAttributeString bkp:DSAttrName="lastUpdateSequence"/>
+                        <DSAttributeMultiString bkp:DSAttrName="msiFileList"/>
+                        <DSAttributeMultiString bkp:DSAttrName="categories"/>
+                        <DSAttributeMultiString bkp:DSAttrName="canUpgradeScript"/>
+                        <DSAttributeDWORD bkp:DSAttrName="installUiLevel"/>
+                        <DSAttributeBinary bkp:DSAttrName="msiScript"/>
+                        <DSAttributeString bkp:DSAttrName="displayName"/>
+                        <DSAttributeBinary bkp:DSAttrName="productCode"/>
+                        <DSAttributeBinary bkp:DSAttrName="upgradeProductCode"/>
+                        <DSAttributeString bkp:DSAttrName="Vendor"/>
+                    </DSObject>
+                </DSObject>
+                <DSAttributeDWORD bkp:DSAttrName="appSchemaVersion"><DSValue><![CDATA[1740]]></DSValue></DSAttributeDWORD>
+                <DSAttributeString bkp:DSAttrName="extensionName"><DSValue><![CDATA[AppDistribution]]></DSValue></DSAttributeString>
+                <DSAttributeString bkp:DSAttrName="description"><DSValue><![CDATA[Application Store]]></DSValue></DSAttributeString>
+                <DSAttributeExpandedString bkp:DSAttrName="displayName">
+                    <DSValue>LDAP://%GPO_DSPATH%</DSValue>
+                </DSAttributeExpandedString>
+            </DSObject>
+        </GroupPolicyExtension>
+    <GroupPolicyExtension bkp:ID="{F15C46CD-82A0-4C2D-A210-5D0D3182A418}" bkp:DescName="Unknown Extension"><FSObjectDir bkp:Path="%GPO_MACH_FSPATH%\Applications" bkp:SourceExpandedPath="\\vSRV01.curiger.local\sysvol\curiger.local\Policies\{22E8CA73-49DD-41D3-B2AF-75AC9359F74E}\Machine\Applications" bkp:Location="DomainSysvol\GPO\Machine\Applications"/><FSObjectFile bkp:Path="%GPO_MACH_FSPATH%\comment.cmtx" bkp:SourceExpandedPath="\\vSRV01.curiger.local\sysvol\curiger.local\Policies\{22E8CA73-49DD-41D3-B2AF-75AC9359F74E}\Machine\comment.cmtx" bkp:Location="DomainSysvol\GPO\Machine\comment.cmtx"/><FSObjectDir bkp:Path="%GPO_MACH_FSPATH%\Scripts" bkp:SourceExpandedPath="\\vSRV01.curiger.local\sysvol\curiger.local\Policies\{22E8CA73-49DD-41D3-B2AF-75AC9359F74E}\Machine\Scripts" bkp:Location="DomainSysvol\GPO\Machine\Scripts"/><FSObjectDir bkp:Path="%GPO_MACH_FSPATH%\Scripts\Shutdown" bkp:SourceExpandedPath="\\vSRV01.curiger.local\sysvol\curiger.local\Policies\{22E8CA73-49DD-41D3-B2AF-75AC9359F74E}\Machine\Scripts\Shutdown" bkp:Location="DomainSysvol\GPO\Machine\Scripts\Shutdown"/><FSObjectDir bkp:Path="%GPO_MACH_FSPATH%\Scripts\Startup" bkp:SourceExpandedPath="\\vSRV01.curiger.local\sysvol\curiger.local\Policies\{22E8CA73-49DD-41D3-B2AF-75AC9359F74E}\Machine\Scripts\Startup" bkp:Location="DomainSysvol\GPO\Machine\Scripts\Startup"/><FSObjectDir bkp:Path="%GPO_USER_FSPATH%\Applications" bkp:SourceExpandedPath="\\vSRV01.curiger.local\sysvol\curiger.local\Policies\{22E8CA73-49DD-41D3-B2AF-75AC9359F74E}\User\Applications" bkp:Location="DomainSysvol\GPO\User\Applications"/></GroupPolicyExtension></GroupPolicyObject>
+</GroupPolicyBackupScheme>

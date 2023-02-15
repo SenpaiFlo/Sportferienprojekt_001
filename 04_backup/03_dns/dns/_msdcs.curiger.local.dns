@@ -1,0 +1,22 @@
+;
+;  Database file _msdcs.curiger.local.dns for Default zone scope in zone _msdcs.curiger.local.
+;      Zone version:  1
+;
+
+@                       IN  SOA vsrv01. hostmaster.curiger.local. (
+                        		1            ; serial number
+                        		900          ; refresh
+                        		600          ; retry
+                        		86400        ; expire
+                        		3600       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	vsrv01.
+
+;
+;  Zone records
+;
+

@@ -1,0 +1,22 @@
+;
+;  Database file forward_zone001.dns for Default zone scope in zone forward_zone001.
+;      Zone version:  1
+;
+
+@                       IN  SOA vsrv01. hostmaster. (
+                        		1            ; serial number
+                        		900          ; refresh
+                        		600          ; retry
+                        		86400        ; expire
+                        		3600       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	vsrv01.
+
+;
+;  Zone records
+;
+
