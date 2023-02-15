@@ -1,0 +1,3 @@
+
+-- Link für FTP server aufsetzen
+https://4sysops.com/archives/install-and-configure-an-ftp-server-with-powershell/
